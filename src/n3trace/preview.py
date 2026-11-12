@@ -134,7 +134,7 @@ def build_call(book: ContractBook, contract_ref: str, method: str, args: list[st
     h = resolve_contract(contract_ref, book)
     c = book.get(h)
     assert c is not None
-    meta = c.method(method, len(args))
+    meta = c.methods.get((method, len(args)))  # exact arity: the node would refuse any other count
     if meta is None:
         same = sorted({f"{n}/{k}" for (n, k) in c.methods if n == method})
         if same:
@@ -178,11 +178,11 @@ def preview(rpc: Any, script: bytes, signers: list[dict[str, Any]], tx: Transact
 
     witnesses = tx.witnesses if tx is not None else []
     sview = [signer_view(s, witnesses[i] if i < len(witnesses) else None) for i, s in enumerate(signers)]
-    calls = calls_view(decoded, book)
     diag = inv.get("diagnostics") or {}
     notifs = inv.get("notifications") or []
     tree = call_tree(diag.get("invokedcontracts"), book, decoded)
     transfers = transfers_view(notifs, book)
+    calls = calls_view(decoded, book)
     deltas = balance_deltas(transfers, book)
     state = inv.get("state")
     gasconsumed = int(inv.get("gasconsumed") or 0)

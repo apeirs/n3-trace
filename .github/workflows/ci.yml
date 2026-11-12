@@ -1,0 +1,51 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "17 7 * * 1"  # weekly: catch node or protocol changes with the live tests
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: offline tests (Python ${{ matrix.python }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.10", "3.11", "3.12", "3.13", "3.14"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          allow-prereleases: true
+      - name: unit tests (recorded mainnet fixtures, no network)
+        run: PYTHONPATH=src:tests python -m unittest discover -s tests -t . -v
+      - name: install and smoke test the CLI
+        run: |
+          python -m pip install .
+          n3-trace --version
+          n3-trace tx 0x45221017442f49751845059878b0ac3f08ba36c918510c181eae50fed14dd6ea \
+            --replay tests/fixtures/tx-swap.json > swap.txt
+          grep -q "same as on chain" swap.txt
+          grep -q "Call tree (19 contract calls, depth 4)" swap.txt
+          set +e
+          n3-trace preview @tests/fixtures/tx-gas-transfer.raw --replay tests/fixtures/preview-raw.json > raw.txt
+          test $? -eq 3 && grep -q "validUntilBlock 14832441 has passed" raw.txt
+
+  live:
+    name: live tests (public mainnet and testnet RPC)
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    continue-on-error: true  # public nodes can be down; that is not a code failure
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: N3_LIVE=1 PYTHONPATH=src:tests python -m unittest tests.test_live -v

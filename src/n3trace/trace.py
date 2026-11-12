@@ -409,8 +409,6 @@ def trace_tx(rpc: Any, txid: str, at: int | str | None = None, with_storage: boo
 
     witnesses = tx.get("witnesses") or []
     signers = [signer_view(s, witnesses[i] if i < len(witnesses) else None) for i, s in enumerate(tx.get("signers") or [])]
-    calls = calls_view(decoded, book)
-
     onchain_notifs = (execu or {}).get("notifications") or []
     onchain = None
     if execu is not None:
@@ -467,6 +465,8 @@ def trace_tx(rpc: Any, txid: str, at: int | str | None = None, with_storage: boo
             }
             replay["matches"] = all(replay["match"].values())
 
+    # Rendered last, so hashes inside array arguments can be named by every contract the run touched.
+    calls = calls_view(decoded, book)
     warnings: list[str] = []
     notes = scope_notes(signers, calls, decoded.exact, book)
     if onchain is not None and onchain["state"] == "HALT" and fees.get("unused_sysfee", 0) > max(onchain["gasconsumed"], 10**6):
@@ -483,6 +483,8 @@ def trace_tx(rpc: Any, txid: str, at: int | str | None = None, with_storage: boo
         if not why:
             why.append("contracts that read the block time, randomness or the transaction itself can take another path")
         diff = [k for k, ok in replay["match"].items() if not ok]
+        if "gas" in diff and onchain is not None:
+            diff[diff.index("gas")] = f"gas ({replay['gasconsumed'] - onchain['gasconsumed']:+,} datoshi)"
         warnings.append(f"the replay differs from the chain in {', '.join(diff)}: " + "; ".join(why))
     elif position and at is None:
         warnings.append(f"replayed on the state after block {height - 1}; {position} earlier transaction(s) in this block are not applied")

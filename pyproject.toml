@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "n3-trace"
+version = "0.1.0"
+description = "Read any Neo N3 transaction like a debugger, and preview one before you sign it, from public RPC"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+authors = [{ name = "apeir" }]
+keywords = ["neo", "neo3", "n3", "transaction", "trace", "debugger", "simulation", "wallet", "blockchain"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Environment :: Console",
+  "Topic :: Software Development :: Debuggers",
+  "Topic :: Utilities",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/apeirs/n3-trace"
+
+[project.scripts]
+n3-trace = "n3trace.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

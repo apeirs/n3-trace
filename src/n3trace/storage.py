@@ -30,6 +30,11 @@ NATIVE_PREFIXES: dict[str, dict[int, str]] = {
 }
 
 
+def _text(b: bytes) -> bool:
+    """Visible text only: a tab or newline in a short key prefix is a byte value, not text."""
+    return _printable(b) and b.decode().isprintable()
+
+
 def split_key(full: bytes) -> tuple[int, bytes]:
     """NeoGo diagnostics keys start with the contract id (int32 little-endian)."""
     if len(full) < 4:
@@ -51,20 +56,26 @@ def key_text(key: bytes, contract_name: str | None = None) -> str:
         if len(rest) == 4 and label in ("contractHash", "request"):
             return f"{label}[{int.from_bytes(rest, 'big' if label == 'contractHash' else 'little')}]"
         return f"{label}{'[0x' + rest.hex() + ']' if rest else ''}"
-    if _printable(key):
+    if _text(key):
         return repr(key.decode())
-    # Common layouts: <prefix bytes><20-byte account>[<suffix>]
-    for plen in (1, 2, 3, 4):
-        if len(key) >= plen + 20:
-            prefix, acct, suffix = key[:plen], key[plen : plen + 20], key[plen + 20 :]
-            if _printable(prefix) or plen == 1:
-                p = repr(prefix.decode()) if _printable(prefix) else "0x" + prefix.hex()
-                tail = ""
-                if suffix:
-                    tail = " + " + (repr(suffix.decode()) if _printable(suffix) else "0x" + suffix.hex())
-                if len(suffix) <= 33:
-                    return f"{p} + {le_to_address(acct)}{tail}"
-    if len(key) > 1 and _printable(key[1:]):
+    # Common layouts: <prefix bytes><20-byte account>[<suffix>]. Prefer a split with nothing after the account,
+    # then the longest text prefix, then a one-byte prefix.
+    def split(plen: int) -> str:
+        prefix, acct, suffix = key[:plen], key[plen : plen + 20], key[plen + 20 :]
+        p = repr(prefix.decode()) if _text(prefix) else "0x" + prefix.hex()
+        tail = ""
+        if suffix:
+            tail = " + " + (repr(suffix.decode()) if _text(suffix) else "0x" + suffix.hex())
+        return f"{p} + {le_to_address(acct)}{tail}"
+
+    fits = [n for n in (1, 2, 3, 4) if len(key) >= n + 20 and (n == 1 or _text(key[:n]))]
+    exact = [n for n in fits if len(key) == n + 20]
+    if exact:
+        return split(exact[-1])
+    for n in sorted(fits, reverse=True):
+        if len(key) - n - 20 <= 33:
+            return split(n)
+    if len(key) > 1 and _text(key[1:]):
         return f"0x{key[:1].hex()} + {key[1:].decode()!r}"
     if len(key) > 48:
         return f"0x{key[:24].hex()}… ({len(key)} bytes)"

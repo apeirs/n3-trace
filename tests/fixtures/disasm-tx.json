@@ -1,0 +1,35 @@
+{
+"[\"getrawtransaction\",[\"0x45221017442f49751845059878b0ac3f08ba36c918510c181eae50fed14dd6ea\",true]]": {
+"attributes": [],
+"blockhash": "0xce5d4bf3258f25e48dee51f8b15fd3a57ee7356917e53b293672d4252bb8775c",
+"blocktime": 1794477409662,
+"confirmations": 1512,
+"hash": "0x45221017442f49751845059878b0ac3f08ba36c918510c181eae50fed14dd6ea",
+"netfee": "40064",
+"nonce": 3036861201,
+"script": "Awb6Ms+hAQAADBRxfh1CSGrUolD7SXef98ty1pNf+AwUz3bii9AGLEpHjuNVYQETGfPPpNISwAP7KSXrKAAAAAKApL8HDBQGRU1Y8NrOmo0bBZU1O0/m8/DeQRXAHwwWc3dhcFRva2VuSW5Gb3JUb2tlbk91dAwUrybLZI9bNyzg3Spq+W6BSQdZ7kFBYn1bUg==",
+"sender": "NLV8G6yrNsroQwmzTzrA9GSNJcv1BRiZtq",
+"signers": [
+{
+"account": "0x41def0f3e64f3b3595051b8d9acedaf0584d4506",
+"allowedcontracts": [
+"0x41ee590749816ef96a2adde02c375b8f64cb26af",
+"0xd2a4cff31913016155e38e474a2c06d08be276cf",
+"0xf85f93d672cbf79f7749fb50a2d46a48421d7e71"
+],
+"scopes": "CustomContracts"
+}
+],
+"size": 364,
+"sysfee": "2466988",
+"validuntilblock": 14836938,
+"version": 0,
+"vmstate": "HALT",
+"witnesses": [
+{
+"invocation": "DEDgm0m9lYnybdisfGVWnhA5nueTpBEw0i7pwRwa7CSNeG7xjjuOC/+XzRApux4oxMFGIJga8NUlRX6s0g0JiV6h",
+"verification": "DCEDD2vp0N0Swv4QDHUPESnwI9j/GzD2SOGFoGHKR+pxryNBVuezJw=="
+}
+]
+}
+}

@@ -1,0 +1,7369 @@
+{
+"[\"getapplicationlog\",[\"0x27b9ce06871a0a150824f5a9ed17895f1f7a4dcc5358ab63dffa81c7e07257ea\"]]": {
+"executions": [
+{
+"exception": null,
+"gasconsumed": "18836817",
+"invocations": null,
+"notifications": [
+{
+"contract": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d",
+"eventname": "UserDeposited",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "ByteString",
+"value": "KkyaTUAiZ4sD7xu+CDT5ZkYNxEg="
+},
+{
+"type": "Integer",
+"value": "15000000000"
+}
+]
+}
+},
+{
+"contract": "0x48c40d4666f93408be1bef038b6722404d9a4c2a",
+"eventname": "Transfer",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "ByteString",
+"value": "TV2JwGPMsbxY5g/RCX0rZJyOJuw="
+},
+{
+"type": "Integer",
+"value": "15000000000"
+}
+]
+}
+},
+{
+"contract": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d",
+"eventname": "AccountUpdated",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "ByteString",
+"value": "KkyaTUAiZ4sD7xu+CDT5ZkYNxEg="
+},
+{
+"type": "Integer",
+"value": "15000000000"
+},
+{
+"type": "Integer",
+"value": "15000000000"
+}
+]
+}
+},
+{
+"contract": "0x48c40d4666f93408be1bef038b6722404d9a4c2a",
+"eventname": "Transfer",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "TV2JwGPMsbxY5g/RCX0rZJyOJuw="
+},
+{
+"type": "ByteString",
+"value": "zvtgr6JNPgiz9ynDkPHPzK38RDI="
+},
+{
+"type": "Integer",
+"value": "15000000000"
+}
+]
+}
+},
+{
+"contract": "0xd2a4cff31913016155e38e474a2c06d08be276cf",
+"eventname": "Transfer",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "zvtgr6JNPgiz9ynDkPHPzK38RDI="
+},
+{
+"type": "ByteString",
+"value": "TV2JwGPMsbxY5g/RCX0rZJyOJuw="
+},
+{
+"type": "Integer",
+"value": "25999910453"
+}
+]
+}
+},
+{
+"contract": "0x3244fcadcccff190c329f7b3083e4da2af60fbce",
+"eventname": "Synced",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "Integer",
+"value": "1954036136004"
+},
+{
+"type": "Integer",
+"value": "3360984393532"
+}
+]
+}
+},
+{
+"contract": "0x3244fcadcccff190c329f7b3083e4da2af60fbce",
+"eventname": "Swapped",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "dUnhH5pNpYjszWmaftC7OglLOt4="
+},
+{
+"type": "Integer",
+"value": "15000000000"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "25999910453"
+},
+{
+"type": "ByteString",
+"value": "TV2JwGPMsbxY5g/RCX0rZJyOJuw="
+}
+]
+}
+},
+{
+"contract": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d",
+"eventname": "OrderUpserted",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "Integer",
+"value": "27550"
+},
+{
+"type": "Integer",
+"value": "15"
+},
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "Integer",
+"value": "15000000000"
+},
+{
+"type": "Integer",
+"value": "150000000"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "1"
+},
+{
+"type": "Integer",
+"value": "15000000000"
+},
+{
+"type": "Integer",
+"value": "25960910588"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Boolean",
+"value": false
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "1110"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "9997"
+},
+{
+"type": "Integer",
+"value": "172"
+},
+{
+"type": "Integer",
+"value": "38999865"
+}
+]
+}
+},
+{
+"contract": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d",
+"eventname": "AccountUpdated",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "ByteString",
+"value": "KkyaTUAiZ4sD7xu+CDT5ZkYNxEg="
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "-15000000000"
+}
+]
+}
+},
+{
+"contract": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d",
+"eventname": "AccountUpdated",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "ByteString",
+"value": "z3bii9AGLEpHjuNVYQETGfPPpNI="
+},
+{
+"type": "Integer",
+"value": "25960910588"
+},
+{
+"type": "Integer",
+"value": "25960910588"
+}
+]
+}
+},
+{
+"contract": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d",
+"eventname": "UserWithdrew",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "ByteString",
+"value": "z3bii9AGLEpHjuNVYQETGfPPpNI="
+},
+{
+"type": "Integer",
+"value": "25960910588"
+}
+]
+}
+},
+{
+"contract": "0xd2a4cff31913016155e38e474a2c06d08be276cf",
+"eventname": "Transfer",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "TV2JwGPMsbxY5g/RCX0rZJyOJuw="
+},
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "Integer",
+"value": "25960910588"
+}
+]
+}
+},
+{
+"contract": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d",
+"eventname": "AccountUpdated",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "ByteString",
+"value": "z3bii9AGLEpHjuNVYQETGfPPpNI="
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "-25960910588"
+}
+]
+}
+}
+],
+"stack": [
+{
+"type": "Boolean",
+"value": true
+}
+],
+"trigger": "Application",
+"vmstate": "HALT"
+}
+],
+"txid": "0x27b9ce06871a0a150824f5a9ed17895f1f7a4dcc5358ab63dffa81c7e07257ea"
+},
+"[\"getblock\",[\"0x8f25f2ab8993acc26a43c549629920f9b84182e6693c09ffa6725facefdbe130\",true]]": {
+"hash": "0x8f25f2ab8993acc26a43c549629920f9b84182e6693c09ffa6725facefdbe130",
+"index": 14825476,
+"primary": 1,
+"time": 1794459618530,
+"tx": [
+{
+"hash": "0x27b9ce06871a0a150824f5a9ed17895f1f7a4dcc5358ab63dffa81c7e07257ea"
+}
+]
+},
+"[\"getcontractstate\",[\"0x3244fcadcccff190c329f7b3083e4da2af60fbce\"]]": {
+"hash": "0x3244fcadcccff190c329f7b3083e4da2af60fbce",
+"id": 33,
+"manifest": {
+"abi": {
+"events": [
+{
+"name": "Synced",
+"parameters": [
+{
+"name": "balance0",
+"type": "Integer"
+},
+{
+"name": "balance1",
+"type": "Integer"
+}
+]
+},
+{
+"name": "Minted",
+"parameters": [
+{
+"name": "caller",
+"type": "Hash160"
+},
+{
+"name": "amount0",
+"type": "Integer"
+},
+{
+"name": "amount1",
+"type": "Integer"
+},
+{
+"name": "liquidity",
+"type": "Integer"
+}
+]
+},
+{
+"name": "Burned",
+"parameters": [
+{
+"name": "caller",
+"type": "Hash160"
+},
+{
+"name": "liquidity",
+"type": "Integer"
+},
+{
+"name": "amount0",
+"type": "Integer"
+},
+{
+"name": "amount1",
+"type": "Integer"
+},
+{
+"name": "to",
+"type": "Hash160"
+}
+]
+},
+{
+"name": "Swapped",
+"parameters": [
+{
+"name": "caller",
+"type": "Hash160"
+},
+{
+"name": "amount0In",
+"type": "Integer"
+},
+{
+"name": "amount1In",
+"type": "Integer"
+},
+{
+"name": "amount0Out",
+"type": "Integer"
+},
+{
+"name": "amount1Out",
+"type": "Integer"
+},
+{
+"name": "to",
+"type": "Hash160"
+}
+]
+},
+{
+"name": "Deployed",
+"parameters": [
+{
+"name": "token0",
+"type": "Hash160"
+},
+{
+"name": "token1",
+"type": "Hash160"
+}
+]
+},
+{
+"name": "Transfer",
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "to",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+}
+]
+},
+{
+"name": "Fault",
+"parameters": [
+{
+"name": "message",
+"type": "String"
+},
+{
+"name": "paras",
+"type": "Array"
+}
+]
+}
+],
+"methods": [
+{
+"name": "symbol",
+"offset": 0,
+"parameters": [],
+"returntype": "String",
+"safe": true
+},
+{
+"name": "verify",
+"offset": 15,
+"parameters": [],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "getAdmin",
+"offset": 29,
+"parameters": [],
+"returntype": "Hash160",
+"safe": false
+},
+{
+"name": "setAdmin",
+"offset": 107,
+"parameters": [
+{
+"name": "admin",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "claimGASFrombNEO",
+"offset": 260,
+"parameters": [
+{
+"name": "receiveAddress",
+"type": "Hash160"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "getGASAdmin",
+"offset": 354,
+"parameters": [],
+"returntype": "Hash160",
+"safe": false
+},
+{
+"name": "setGASAdmin",
+"offset": 411,
+"parameters": [
+{
+"name": "GASAdmin",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "getWhiteListContract",
+"offset": 491,
+"parameters": [],
+"returntype": "Hash160",
+"safe": false
+},
+{
+"name": "setWhiteListContract",
+"offset": 548,
+"parameters": [
+{
+"name": "whiteList",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "checkIsRouter",
+"offset": 634,
+"parameters": [
+{
+"name": "callScript",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "update",
+"offset": 708,
+"parameters": [
+{
+"name": "nefFile",
+"type": "ByteArray"
+},
+{
+"name": "manifest",
+"type": "String"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "_deploy",
+"offset": 751,
+"parameters": [
+{
+"name": "data",
+"type": "Any"
+},
+{
+"name": "update",
+"type": "Boolean"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "version",
+"offset": 1196,
+"parameters": [],
+"returntype": "String",
+"safe": false
+},
+{
+"name": "getToken0",
+"offset": 1206,
+"parameters": [],
+"returntype": "Hash160",
+"safe": true
+},
+{
+"name": "getToken1",
+"offset": 1211,
+"parameters": [],
+"returntype": "Hash160",
+"safe": true
+},
+{
+"name": "getReserve0",
+"offset": 1216,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getReserve1",
+"offset": 1286,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "swap",
+"offset": 1298,
+"parameters": [
+{
+"name": "amount0Out",
+"type": "Integer"
+},
+{
+"name": "amount1Out",
+"type": "Integer"
+},
+{
+"name": "toAddress",
+"type": "Hash160"
+},
+{
+"name": "data",
+"type": "ByteArray"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "burn",
+"offset": 2099,
+"parameters": [
+{
+"name": "toAddress",
+"type": "Hash160"
+}
+],
+"returntype": "Any",
+"safe": false
+},
+{
+"name": "mint",
+"offset": 2708,
+"parameters": [
+{
+"name": "toAddress",
+"type": "Hash160"
+}
+],
+"returntype": "Integer",
+"safe": false
+},
+{
+"name": "getReserves",
+"offset": 3125,
+"parameters": [],
+"returntype": "Any",
+"safe": false
+},
+{
+"name": "decimals",
+"offset": 3305,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "totalSupply",
+"offset": 2503,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "balanceOf",
+"offset": 2417,
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "transfer",
+"offset": 3307,
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "to",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "onNEP17Payment",
+"offset": 3622,
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "_initialize",
+"offset": 3626,
+"parameters": [],
+"returntype": "Void",
+"safe": false
+}
+]
+},
+"name": "FlamingoSwapPair",
+"supportedstandards": [
+"NEP-17"
+]
+}
+},
+"[\"getcontractstate\",[\"0x48c40d4666f93408be1bef038b6722404d9a4c2a\"]]": {
+"hash": "0x48c40d4666f93408be1bef038b6722404d9a4c2a",
+"id": 12,
+"manifest": {
+"abi": {
+"events": [
+{
+"name": "Transfer",
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "to",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+}
+]
+}
+],
+"methods": [
+{
+"name": "symbol",
+"offset": 2327,
+"parameters": [],
+"returntype": "String",
+"safe": false
+},
+{
+"name": "decimals",
+"offset": 2342,
+"parameters": [],
+"returntype": "Integer",
+"safe": false
+},
+{
+"name": "totalSupply",
+"offset": 40,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "balanceOf",
+"offset": 85,
+"parameters": [
+{
+"name": "owner",
+"type": "Hash160"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "owner",
+"offset": 840,
+"parameters": [],
+"returntype": "Hash160",
+"safe": false
+},
+{
+"name": "agent",
+"offset": 867,
+"parameters": [
+{
+"name": "i",
+"type": "Integer"
+}
+],
+"returntype": "Hash160",
+"safe": false
+},
+{
+"name": "strategist",
+"offset": 930,
+"parameters": [],
+"returntype": "Hash160",
+"safe": false
+},
+{
+"name": "candidate",
+"offset": 957,
+"parameters": [
+{
+"name": "target",
+"type": "PublicKey"
+}
+],
+"returntype": "ByteArray",
+"safe": false
+},
+{
+"name": "reward",
+"offset": 990,
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+}
+],
+"returntype": "Integer",
+"safe": false
+},
+{
+"name": "rPS",
+"offset": 1236,
+"parameters": [],
+"returntype": "Integer",
+"safe": false
+},
+{
+"name": "rewardEnabled",
+"offset": 1260,
+"parameters": [],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "onNEP17Payment",
+"offset": 1286,
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "transfer",
+"offset": 1829,
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "to",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "syncAccount",
+"offset": 1039,
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "trigVote",
+"offset": 1863,
+"parameters": [
+{
+"name": "i",
+"type": "Integer"
+},
+{
+"name": "target",
+"type": "PublicKey"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "trigTransfer",
+"offset": 1935,
+"parameters": [
+{
+"name": "i",
+"type": "Integer"
+},
+{
+"name": "j",
+"type": "Integer"
+},
+{
+"name": "amount",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setOwner",
+"offset": 1982,
+"parameters": [
+{
+"name": "owner",
+"type": "Hash160"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setAgent",
+"offset": 2019,
+"parameters": [
+{
+"name": "i",
+"type": "Integer"
+},
+{
+"name": "agent",
+"type": "Hash160"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setStrategist",
+"offset": 2082,
+"parameters": [
+{
+"name": "strategist",
+"type": "Hash160"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "switchRewardEnabled",
+"offset": 2113,
+"parameters": [],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "allowCandidate",
+"offset": 2151,
+"parameters": [
+{
+"name": "target",
+"type": "PublicKey"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "disallowCandidate",
+"offset": 2199,
+"parameters": [
+{
+"name": "target",
+"type": "PublicKey"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "update",
+"offset": 2245,
+"parameters": [
+{
+"name": "nefFile",
+"type": "ByteArray"
+},
+{
+"name": "manifest",
+"type": "String"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "pika",
+"offset": 2270,
+"parameters": [
+{
+"name": "amount",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "_initialize",
+"offset": 2301,
+"parameters": [],
+"returntype": "Void",
+"safe": false
+}
+]
+},
+"name": "BurgerNEO",
+"supportedstandards": [
+"NEP-17"
+]
+}
+},
+"[\"getcontractstate\",[\"0x73e1a15d3d3732e5aa983f3d7c7cf0b40b46bb69\"]]": {
+"__error__": "getcontractstate: Unknown contract",
+"code": -102
+},
+"[\"getcontractstate\",[\"0xca2d20610d7982ebe0bed124ee7e9b2d580a6efc\"]]": {
+"hash": "0xca2d20610d7982ebe0bed124ee7e9b2d580a6efc",
+"id": 27,
+"manifest": {
+"abi": {
+"events": [
+{
+"name": "CreateExchange",
+"parameters": [
+{
+"name": "tokenA",
+"type": "Hash160"
+},
+{
+"name": "tokenB",
+"type": "Hash160"
+},
+{
+"name": "exchangeContractHash",
+"type": "Hash160"
+}
+]
+},
+{
+"name": "RemoveExchange",
+"parameters": [
+{
+"name": "tokenA",
+"type": "Hash160"
+},
+{
+"name": "tokenB",
+"type": "Hash160"
+}
+]
+},
+{
+"name": "Fault",
+"parameters": [
+{
+"name": "message",
+"type": "String"
+},
+{
+"name": "paras",
+"type": "Array"
+}
+]
+}
+],
+"methods": [
+{
+"name": "verify",
+"offset": 47,
+"parameters": [],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "getAdmin",
+"offset": 61,
+"parameters": [],
+"returntype": "Hash160",
+"safe": false
+},
+{
+"name": "setAdmin",
+"offset": 139,
+"parameters": [
+{
+"name": "admin",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "update",
+"offset": 260,
+"parameters": [
+{
+"name": "nefFile",
+"type": "ByteArray"
+},
+{
+"name": "manifest",
+"type": "String"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "getExchangePair",
+"offset": 300,
+"parameters": [
+{
+"name": "tokenA",
+"type": "Hash160"
+},
+{
+"name": "tokenB",
+"type": "Hash160"
+}
+],
+"returntype": "ByteArray",
+"safe": false
+},
+{
+"name": "createExchangePair",
+"offset": 428,
+"parameters": [
+{
+"name": "tokenA",
+"type": "Hash160"
+},
+{
+"name": "tokenB",
+"type": "Hash160"
+},
+{
+"name": "exchangeContractHash",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "registerExchangePair",
+"offset": 649,
+"parameters": [
+{
+"name": "exchangeContractHash",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "removeExchangePair",
+"offset": 844,
+"parameters": [
+{
+"name": "tokenA",
+"type": "Hash160"
+},
+{
+"name": "tokenB",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "getAllExchangePair",
+"offset": 1002,
+"parameters": [],
+"returntype": "Array",
+"safe": false
+},
+{
+"name": "_initialize",
+"offset": 1249,
+"parameters": [],
+"returntype": "Void",
+"safe": false
+}
+]
+},
+"name": "FlamingoSwapFactory",
+"supportedstandards": []
+}
+},
+"[\"getcontractstate\",[\"0xde3a4b093abbd07e9a69cdec88a54d9a1fe14975\"]]": {
+"hash": "0xde3a4b093abbd07e9a69cdec88a54d9a1fe14975",
+"id": 437,
+"manifest": {
+"abi": {
+"events": [
+{
+"name": "Fault",
+"parameters": [
+{
+"name": "message",
+"type": "String"
+},
+{
+"name": "paras",
+"type": "Array"
+}
+]
+}
+],
+"methods": [
+{
+"name": "verify",
+"offset": 0,
+"parameters": [],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "getAdmin",
+"offset": 14,
+"parameters": [],
+"returntype": "Hash160",
+"safe": false
+},
+{
+"name": "setAdmin",
+"offset": 92,
+"parameters": [
+{
+"name": "admin",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "getFactory",
+"offset": 239,
+"parameters": [],
+"returntype": "Hash160",
+"safe": false
+},
+{
+"name": "setFactory",
+"offset": 286,
+"parameters": [
+{
+"name": "factory",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "setBrokerContract",
+"offset": 375,
+"parameters": [
+{
+"name": "broker",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "getBrokerContract",
+"offset": 463,
+"parameters": [],
+"returntype": "Hash160",
+"safe": false
+},
+{
+"name": "checkIsBroker",
+"offset": 509,
+"parameters": [],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "update",
+"offset": 575,
+"parameters": [
+{
+"name": "nefFile",
+"type": "ByteArray"
+},
+{
+"name": "manifest",
+"type": "String"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "getVersion",
+"offset": 618,
+"parameters": [],
+"returntype": "String",
+"safe": false
+},
+{
+"name": "addLiquidity",
+"offset": 632,
+"parameters": [
+{
+"name": "sender",
+"type": "Hash160"
+},
+{
+"name": "tokenA",
+"type": "Hash160"
+},
+{
+"name": "tokenB",
+"type": "Hash160"
+},
+{
+"name": "amountADesired",
+"type": "Integer"
+},
+{
+"name": "amountBDesired",
+"type": "Integer"
+},
+{
+"name": "amountAMin",
+"type": "Integer"
+},
+{
+"name": "amountBMin",
+"type": "Integer"
+},
+{
+"name": "deadLine",
+"type": "Integer"
+}
+],
+"returntype": "Array",
+"safe": false
+},
+{
+"name": "addLiquidity",
+"offset": 1475,
+"parameters": [
+{
+"name": "tokenA",
+"type": "Hash160"
+},
+{
+"name": "tokenB",
+"type": "Hash160"
+},
+{
+"name": "amountADesired",
+"type": "Integer"
+},
+{
+"name": "amountBDesired",
+"type": "Integer"
+},
+{
+"name": "amountAMin",
+"type": "Integer"
+},
+{
+"name": "amountBMin",
+"type": "Integer"
+},
+{
+"name": "deadLine",
+"type": "Integer"
+}
+],
+"returntype": "Array",
+"safe": false
+},
+{
+"name": "removeLiquidity",
+"offset": 2028,
+"parameters": [
+{
+"name": "sender",
+"type": "Hash160"
+},
+{
+"name": "tokenA",
+"type": "Hash160"
+},
+{
+"name": "tokenB",
+"type": "Hash160"
+},
+{
+"name": "liquidity",
+"type": "Integer"
+},
+{
+"name": "amountAMin",
+"type": "Integer"
+},
+{
+"name": "amountBMin",
+"type": "Integer"
+},
+{
+"name": "deadLine",
+"type": "Integer"
+}
+],
+"returntype": "Array",
+"safe": false
+},
+{
+"name": "removeLiquidity",
+"offset": 2285,
+"parameters": [
+{
+"name": "tokenA",
+"type": "Hash160"
+},
+{
+"name": "tokenB",
+"type": "Hash160"
+},
+{
+"name": "liquidity",
+"type": "Integer"
+},
+{
+"name": "amountAMin",
+"type": "Integer"
+},
+{
+"name": "amountBMin",
+"type": "Integer"
+},
+{
+"name": "deadLine",
+"type": "Integer"
+}
+],
+"returntype": "Array",
+"safe": false
+},
+{
+"name": "quote",
+"offset": 1285,
+"parameters": [
+{
+"name": "amountA",
+"type": "Integer"
+},
+{
+"name": "reserveA",
+"type": "Integer"
+},
+{
+"name": "reserveB",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": false
+},
+{
+"name": "getAmountOut",
+"offset": 2550,
+"parameters": [
+{
+"name": "amountIn",
+"type": "Integer"
+},
+{
+"name": "reserveIn",
+"type": "Integer"
+},
+{
+"name": "reserveOut",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": false
+},
+{
+"name": "getAmountIn",
+"offset": 2612,
+"parameters": [
+{
+"name": "amountOut",
+"type": "Integer"
+},
+{
+"name": "reserveIn",
+"type": "Integer"
+},
+{
+"name": "reserveOut",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": false
+},
+{
+"name": "getAmountsOut",
+"offset": 2677,
+"parameters": [
+{
+"name": "amountIn",
+"type": "Integer"
+},
+{
+"name": "paths",
+"type": "Array"
+}
+],
+"returntype": "Array",
+"safe": false
+},
+{
+"name": "getAmountsIn",
+"offset": 2918,
+"parameters": [
+{
+"name": "amountOut",
+"type": "Integer"
+},
+{
+"name": "paths",
+"type": "Array"
+}
+],
+"returntype": "Array",
+"safe": false
+},
+{
+"name": "getReserves",
+"offset": 967,
+"parameters": [
+{
+"name": "tokenA",
+"type": "Hash160"
+},
+{
+"name": "tokenB",
+"type": "Hash160"
+}
+],
+"returntype": "Array",
+"safe": false
+},
+{
+"name": "onNEP17Payment",
+"offset": 3159,
+"parameters": [
+{
+"name": "sender",
+"type": "Hash160"
+},
+{
+"name": "amountIn",
+"type": "Integer"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "swapTokenInForTokenOut",
+"offset": 3163,
+"parameters": [
+{
+"name": "amountIn",
+"type": "Integer"
+},
+{
+"name": "amountOutMin",
+"type": "Integer"
+},
+{
+"name": "paths",
+"type": "Array"
+},
+{
+"name": "deadLine",
+"type": "Integer"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "swapTokenOutForTokenIn",
+"offset": 3800,
+"parameters": [
+{
+"name": "amountOut",
+"type": "Integer"
+},
+{
+"name": "amountInMax",
+"type": "Integer"
+},
+{
+"name": "paths",
+"type": "Array"
+},
+{
+"name": "deadLine",
+"type": "Integer"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "getExchangePairWithAssert",
+"offset": 1085,
+"parameters": [
+{
+"name": "tokenA",
+"type": "Hash160"
+},
+{
+"name": "tokenB",
+"type": "Hash160"
+}
+],
+"returntype": "Hash160",
+"safe": false
+},
+{
+"name": "_initialize",
+"offset": 4013,
+"parameters": [],
+"returntype": "Void",
+"safe": false
+}
+]
+},
+"name": "FlamingoSwapRouter",
+"supportedstandards": []
+}
+},
+"[\"getcontractstate\",[\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\"]]": {
+"hash": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d",
+"id": 438,
+"manifest": {
+"abi": {
+"events": [
+{
+"name": "OrderUpserted",
+"parameters": [
+{
+"name": "id",
+"type": "Integer"
+},
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "owner",
+"type": "Hash160"
+},
+{
+"name": "totalOrderBaseAmount",
+"type": "Integer"
+},
+{
+"name": "totalOrderQuoteAmount",
+"type": "Integer"
+},
+{
+"name": "placedInOrderBookBaseAmount",
+"type": "Integer"
+},
+{
+"name": "placedInOrderBookQuoteAmount",
+"type": "Integer"
+},
+{
+"name": "price",
+"type": "Integer"
+},
+{
+"name": "baseAmountTradedInAmm",
+"type": "Integer"
+},
+{
+"name": "quoteAmountTradedInAmm",
+"type": "Integer"
+},
+{
+"name": "baseAmountTradedBeforeOrderPlaced",
+"type": "Integer"
+},
+{
+"name": "quoteAmountTradedBeforeOrderPlaced",
+"type": "Integer"
+},
+{
+"name": "isBuy",
+"type": "Boolean"
+},
+{
+"name": "cancelledBaseAmount",
+"type": "Integer"
+},
+{
+"name": "cancelledQuoteAmount",
+"type": "Integer"
+},
+{
+"name": "claimedBaseAmount",
+"type": "Integer"
+},
+{
+"name": "claimedQuoteAmount",
+"type": "Integer"
+},
+{
+"name": "emptiedCountWhenInserted",
+"type": "Integer"
+},
+{
+"name": "globalBaseAmountPlacedAtPriceWhenInserted",
+"type": "Integer"
+},
+{
+"name": "globalQuoteAmountPlacedAtPriceWhenInserted",
+"type": "Integer"
+},
+{
+"name": "CancelId",
+"type": "Integer"
+},
+{
+"name": "EndingPrice",
+"type": "Integer"
+},
+{
+"name": "FeeAmount",
+"type": "Integer"
+}
+]
+},
+{
+"name": "AccountUpdated",
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "token",
+"type": "Hash160"
+},
+{
+"name": "newBalance",
+"type": "Integer"
+},
+{
+"name": "balanceChange",
+"type": "Integer"
+}
+]
+},
+{
+"name": "UserDeposited",
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "token",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+}
+]
+},
+{
+"name": "UserWithdrew",
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "token",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+}
+]
+},
+{
+"name": "PairOrderTradingPaused",
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+]
+},
+{
+"name": "PairOrderManagementPaused",
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+]
+},
+{
+"name": "PairOrderTradingResumed",
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+]
+},
+{
+"name": "PairOrderManagementResumed",
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+]
+},
+{
+"name": "PairAdded",
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "baseToken",
+"type": "Hash160"
+},
+{
+"name": "quoteToken",
+"type": "Hash160"
+},
+{
+"name": "treeBitLength",
+"type": "Integer"
+},
+{
+"name": "pricePrecision",
+"type": "Integer"
+}
+]
+},
+{
+"name": "FeeClaimed",
+"parameters": [
+{
+"name": "token",
+"type": "Hash160"
+},
+{
+"name": "feeCollector",
+"type": "Hash160"
+},
+{
+"name": "tokenFeeBalance",
+"type": "Integer"
+}
+]
+},
+{
+"name": "PairMakerFeeChanged",
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "makerFee",
+"type": "Integer"
+}
+]
+},
+{
+"name": "PairTakerFeeChanged",
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "takerFee",
+"type": "Integer"
+}
+]
+},
+{
+"name": "FusdFundFeePercentageChanged",
+"parameters": [
+{
+"name": "fusdFundFeePercentage",
+"type": "Integer"
+}
+]
+},
+{
+"name": "FixedGasCostForCLOChanged",
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "gasToBurnAmount",
+"type": "Integer"
+}
+]
+},
+{
+"name": "FixedGasCostForELOChanged",
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "gasToBurnAmount",
+"type": "Integer"
+}
+]
+},
+{
+"name": "FixedGasCostForALOChanged",
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "gasToBurnAmount",
+"type": "Integer"
+}
+]
+},
+{
+"name": "DebugMethodCalled",
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "methodName",
+"type": "String"
+},
+{
+"name": "parameters",
+"type": "Array"
+}
+]
+}
+],
+"methods": [
+{
+"name": "deposit",
+"offset": 0,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "token",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "withdraw",
+"offset": 1266,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "token",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "getAccountBalance",
+"offset": 1756,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "token",
+"type": "Hash160"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getAccountBalanceAll",
+"offset": 1769,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+}
+],
+"returntype": "Map",
+"safe": true
+},
+{
+"name": "createLimitBuyOrderUsingQuote",
+"offset": 1865,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "quoteAmount",
+"type": "Integer"
+},
+{
+"name": "limitPrice",
+"type": "Integer"
+},
+{
+"name": "userDefinedId",
+"type": "Integer"
+},
+{
+"name": "useAMM",
+"type": "Boolean"
+},
+{
+"name": "debug",
+"type": "Boolean"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "executeLimitBuyOrderUsingQuote",
+"offset": 10708,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "quoteAmount",
+"type": "Integer"
+},
+{
+"name": "limitPrice",
+"type": "Integer"
+},
+{
+"name": "userDefinedId",
+"type": "Integer"
+},
+{
+"name": "useAMM",
+"type": "Boolean"
+},
+{
+"name": "debug",
+"type": "Boolean"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "emulateExecuteLimitBuyOrderUsingQuote",
+"offset": 11552,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "quoteAmount",
+"type": "Integer"
+},
+{
+"name": "limitPrice",
+"type": "Integer"
+},
+{
+"name": "useAMM",
+"type": "Boolean"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "addLimitBuyOrderUsingQuote",
+"offset": 12201,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "quoteAmount",
+"type": "Integer"
+},
+{
+"name": "limitPrice",
+"type": "Integer"
+},
+{
+"name": "userDefinedId",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "getVersion",
+"offset": 13207,
+"parameters": [],
+"returntype": "String",
+"safe": true
+},
+{
+"name": "getPriceNode",
+"offset": 13226,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "nodeIndex",
+"type": "Integer"
+},
+{
+"name": "fromSellTree",
+"type": "Boolean"
+}
+],
+"returntype": "Any",
+"safe": true
+},
+{
+"name": "getTreeBitLength",
+"offset": 2700,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getBaseToken",
+"offset": 2811,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+],
+"returntype": "Hash160",
+"safe": true
+},
+{
+"name": "getQuoteToken",
+"offset": 2863,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+],
+"returntype": "Hash160",
+"safe": true
+},
+{
+"name": "getDecimals",
+"offset": 2916,
+"parameters": [
+{
+"name": "token",
+"type": "Hash160"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getPricePrecision",
+"offset": 2971,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getMaxPrice",
+"offset": 13251,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getFeeBalance",
+"offset": 13330,
+"parameters": [
+{
+"name": "token",
+"type": "Hash160"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getPriceCoefficient",
+"offset": 13342,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getRoundingPrecision",
+"offset": 13347,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getPriceRoundingPrecision",
+"offset": 13352,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getNodeIndex",
+"offset": 6101,
+"parameters": [
+{
+"name": "treeWidth",
+"type": "Integer"
+},
+{
+"name": "column",
+"type": "Integer"
+},
+{
+"name": "priceRow",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getColumnFromNodeIndex",
+"offset": 13357,
+"parameters": [
+{
+"name": "nodeIndex",
+"type": "Integer"
+},
+{
+"name": "treeWidth",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getPriceRowFromNodeIndex",
+"offset": 13366,
+"parameters": [
+{
+"name": "nodeIndex",
+"type": "Integer"
+},
+{
+"name": "treeWidth",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getCanceledTreeKey",
+"offset": 9177,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "priceRow",
+"type": "Integer"
+},
+{
+"name": "isBuy",
+"type": "Boolean"
+}
+],
+"returntype": "ByteArray",
+"safe": true
+},
+{
+"name": "getBaseAmountExecutedAtNode",
+"offset": 13471,
+"parameters": [
+{
+"name": "isBuy",
+"type": "Boolean"
+},
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "endingNodeIndex",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getQuoteAmountExecutedAtNode",
+"offset": 13545,
+"parameters": [
+{
+"name": "isBuy",
+"type": "Boolean"
+},
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "endingNodeIndex",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getCancelledAmountAtPrice",
+"offset": 13619,
+"parameters": [
+{
+"name": "treeKey",
+"type": "ByteArray"
+},
+{
+"name": "nodeIndex",
+"type": "Integer"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "getUserOrderCount",
+"offset": 13632,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getTokenBalance",
+"offset": 13644,
+"parameters": [
+{
+"name": "token",
+"type": "Hash160"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "isModerator",
+"offset": 13656,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": true
+},
+{
+"name": "verify",
+"offset": 13713,
+"parameters": [],
+"returntype": "Boolean",
+"safe": true
+},
+{
+"name": "onNEP17Payment",
+"offset": 13773,
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+},
+{
+"name": "data",
+"type": "Array"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "approvedTransfer",
+"offset": 13777,
+"parameters": [
+{
+"name": "asset",
+"type": "Hash160"
+},
+{
+"name": "to",
+"type": "Hash160"
+},
+{
+"name": "value",
+"type": "Integer"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "claimFeeToCollector",
+"offset": 13847,
+"parameters": [
+{
+"name": "token",
+"type": "Hash160"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "convertPriceRowToAmmPrice",
+"offset": 6536,
+"parameters": [
+{
+"name": "priceRow",
+"type": "Integer"
+},
+{
+"name": "pairPricePrecision",
+"type": "Integer"
+},
+{
+"name": "baseTokenDecimals",
+"type": "Integer"
+},
+{
+"name": "quoteTokenDecimals",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "convertPriceRowToRealPrice",
+"offset": 3020,
+"parameters": [
+{
+"name": "priceRow",
+"type": "Integer"
+},
+{
+"name": "pairPricePrecision",
+"type": "Integer"
+},
+{
+"name": "baseTokenDecimals",
+"type": "Integer"
+},
+{
+"name": "quoteTokenDecimals",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "convertRatioToRealPrice",
+"offset": 7777,
+"parameters": [
+{
+"name": "baseTokenAmount",
+"type": "Integer"
+},
+{
+"name": "quoteTokenAmount",
+"type": "Integer"
+},
+{
+"name": "baseTokenDecimals",
+"type": "Integer"
+},
+{
+"name": "quoteTokenDecimals",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "convertAmmPriceToLimitPrice",
+"offset": 13063,
+"parameters": [
+{
+"name": "baseTokenReserve",
+"type": "Integer"
+},
+{
+"name": "quoteTokenReserve",
+"type": "Integer"
+},
+{
+"name": "pairPricePrecision",
+"type": "Integer"
+},
+{
+"name": "baseTokenDecimals",
+"type": "Integer"
+},
+{
+"name": "quoteTokenDecimals",
+"type": "Integer"
+},
+{
+"name": "roundUp",
+"type": "Boolean"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "calculateBaseTokenInUntilPrice",
+"offset": 14372,
+"parameters": [
+{
+"name": "baseTokenReserve",
+"type": "Integer"
+},
+{
+"name": "quoteTokenReserve",
+"type": "Integer"
+},
+{
+"name": "targetPrice",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "calculateQuoteTokenOutUntilPrice",
+"offset": 14462,
+"parameters": [
+{
+"name": "baseTokenReserve",
+"type": "Integer"
+},
+{
+"name": "quoteTokenReserve",
+"type": "Integer"
+},
+{
+"name": "targetPrice",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "calculateQuoteTokenInUntilPrice",
+"offset": 6636,
+"parameters": [
+{
+"name": "baseTokenReserve",
+"type": "Integer"
+},
+{
+"name": "quoteTokenReserve",
+"type": "Integer"
+},
+{
+"name": "targetPrice",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "calculateBaseTokenOutUntilPrice",
+"offset": 14484,
+"parameters": [
+{
+"name": "baseTokenReserve",
+"type": "Integer"
+},
+{
+"name": "quoteTokenReserve",
+"type": "Integer"
+},
+{
+"name": "targetPrice",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getAmountOut",
+"offset": 6743,
+"parameters": [
+{
+"name": "amountIn",
+"type": "Integer"
+},
+{
+"name": "reserveIn",
+"type": "Integer"
+},
+{
+"name": "reserveOut",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getAmountIn",
+"offset": 14509,
+"parameters": [
+{
+"name": "amountOut",
+"type": "Integer"
+},
+{
+"name": "reserveIn",
+"type": "Integer"
+},
+{
+"name": "reserveOut",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "findAmountCanceledFromOrdersWithLowerId",
+"offset": 9294,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "isBuy",
+"type": "Boolean"
+},
+{
+"name": "orderCancelId",
+"type": "Integer"
+},
+{
+"name": "priceRow",
+"type": "Integer"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "claimOrder",
+"offset": 15091,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "orderId",
+"type": "Integer"
+},
+{
+"name": "nodeIndexToCheck",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "getClaimableAmount",
+"offset": 16484,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "orderId",
+"type": "Integer"
+},
+{
+"name": "nodeIndexToCheck",
+"type": "Integer"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "findNodeToCheckForClaim",
+"offset": 16919,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "orderId",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getAmountsAtPrice",
+"offset": 17865,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "isBuy",
+"type": "Boolean"
+},
+{
+"name": "limitPrice",
+"type": "Integer"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "checkIfVirtuallyFilled",
+"offset": 15995,
+"parameters": [
+{
+"name": "order",
+"type": "Any"
+},
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "treeWidth",
+"type": "Integer"
+},
+{
+"name": "nodeIndexToCheck",
+"type": "Integer"
+}
+],
+"returntype": "Boolean",
+"safe": true
+},
+{
+"name": "cancelOrder",
+"offset": 18911,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "orderId",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "getOrder",
+"offset": 15938,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "orderId",
+"type": "Integer"
+}
+],
+"returntype": "Any",
+"safe": true
+},
+{
+"name": "getAllUserOrders",
+"offset": 19852,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "page",
+"type": "Integer"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "changeOwner",
+"offset": 20143,
+"parameters": [
+{
+"name": "newOwner",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "addModerator",
+"offset": 20300,
+"parameters": [
+{
+"name": "moderator",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "removeModerator",
+"offset": 20437,
+"parameters": [
+{
+"name": "moderator",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "changeFeeCollector",
+"offset": 20544,
+"parameters": [
+{
+"name": "collector",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "setFusdFundAddress",
+"offset": 20664,
+"parameters": [
+{
+"name": "fusdFundAddress",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "removeFusdFundAddress",
+"offset": 20790,
+"parameters": [],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "changeGasCollector",
+"offset": 20844,
+"parameters": [
+{
+"name": "collector",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "changeAMMRouter",
+"offset": 20964,
+"parameters": [
+{
+"name": "router",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "changeAMMFactory",
+"offset": 21081,
+"parameters": [
+{
+"name": "factory",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "enableTokenDeposit",
+"offset": 21199,
+"parameters": [
+{
+"name": "token",
+"type": "Hash160"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "disableTokenDeposit",
+"offset": 21330,
+"parameters": [
+{
+"name": "token",
+"type": "Hash160"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "enableTokenWithdraw",
+"offset": 21429,
+"parameters": [
+{
+"name": "token",
+"type": "Hash160"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "disableTokenWithdraw",
+"offset": 21560,
+"parameters": [
+{
+"name": "token",
+"type": "Hash160"
+},
+{
+"name": "sender",
+"type": "Hash160"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "addPair",
+"offset": 21722,
+"parameters": [
+{
+"name": "baseToken",
+"type": "Hash160"
+},
+{
+"name": "quoteToken",
+"type": "Hash160"
+},
+{
+"name": "treeBitLength",
+"type": "Integer"
+},
+{
+"name": "pricePrecision",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "pausePairOrderTrading",
+"offset": 22373,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "sender",
+"type": "Hash160"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "unpausePairOrderTrading",
+"offset": 22497,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "pausePairOrderManagement",
+"offset": 22598,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "sender",
+"type": "Hash160"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "unpausePairOrderManagement",
+"offset": 22725,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setPairMakerFee",
+"offset": 22829,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "makerFee",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setPairTakerFee",
+"offset": 22987,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "takerFee",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setFusdFundFeePercentage",
+"offset": 23145,
+"parameters": [
+{
+"name": "fusdFundFeePercentage",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "claimGASFromBNEO",
+"offset": 23282,
+"parameters": [
+{
+"name": "receiver",
+"type": "Hash160"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setFixedGasCostForCreateLimitOrder",
+"offset": 23564,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "gasCost",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setFixedGasCostForExecuteLimitOrder",
+"offset": 23718,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "gasCost",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setFixedGasCostForAddLimitOrder",
+"offset": 23872,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "gasCost",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "update",
+"offset": 24026,
+"parameters": [
+{
+"name": "nefFile",
+"type": "ByteArray"
+},
+{
+"name": "manifest",
+"type": "String"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "getOwner",
+"offset": 13728,
+"parameters": [],
+"returntype": "Hash160",
+"safe": true
+},
+{
+"name": "getFeeCollector",
+"offset": 14067,
+"parameters": [],
+"returntype": "Hash160",
+"safe": true
+},
+{
+"name": "getFusdFundAddress",
+"offset": 14364,
+"parameters": [],
+"returntype": "Hash160",
+"safe": true
+},
+{
+"name": "getGasCollector",
+"offset": 23496,
+"parameters": [],
+"returntype": "Hash160",
+"safe": true
+},
+{
+"name": "getAMMRouter",
+"offset": 7272,
+"parameters": [],
+"returntype": "Hash160",
+"safe": true
+},
+{
+"name": "getAMMFactory",
+"offset": 3908,
+"parameters": [],
+"returntype": "Hash160",
+"safe": true
+},
+{
+"name": "isTokenDepositEnabled",
+"offset": 462,
+"parameters": [
+{
+"name": "token",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": true
+},
+{
+"name": "isTokenWithdrawEnabled",
+"offset": 1532,
+"parameters": [
+{
+"name": "token",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": true
+},
+{
+"name": "getPairCounter",
+"offset": 24066,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getMakerFee",
+"offset": 16426,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getTakerFee",
+"offset": 7039,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getFusdFundFeePercentage",
+"offset": 14223,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "isPairOrderTradingPaused",
+"offset": 2752,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+],
+"returntype": "Boolean",
+"safe": true
+},
+{
+"name": "isPairOrderManagementPaused",
+"offset": 15879,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+],
+"returntype": "Boolean",
+"safe": true
+},
+{
+"name": "isPairExisting",
+"offset": 2689,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+],
+"returntype": "Boolean",
+"safe": true
+},
+{
+"name": "getLastAvgPrice",
+"offset": 24074,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getLastIndexForPrice",
+"offset": 24131,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getPrice",
+"offset": 24143,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "blockIndex",
+"type": "Integer"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "createLimitSellOrderUsingBase",
+"offset": 24156,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "baseAmount",
+"type": "Integer"
+},
+{
+"name": "limitPrice",
+"type": "Integer"
+},
+{
+"name": "userDefinedId",
+"type": "Integer"
+},
+{
+"name": "useAMM",
+"type": "Boolean"
+},
+{
+"name": "debug",
+"type": "Boolean"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "executeLimitSellOrderUsingBase",
+"offset": 28948,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "baseAmount",
+"type": "Integer"
+},
+{
+"name": "limitPrice",
+"type": "Integer"
+},
+{
+"name": "userDefinedId",
+"type": "Integer"
+},
+{
+"name": "useAMM",
+"type": "Boolean"
+},
+{
+"name": "debug",
+"type": "Boolean"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "emulateExecuteLimitSellOrderUsingBase",
+"offset": 29732,
+"parameters": [
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "baseAmount",
+"type": "Integer"
+},
+{
+"name": "limitPrice",
+"type": "Integer"
+},
+{
+"name": "useAMM",
+"type": "Boolean"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "addLimitSellOrderUsingBase",
+"offset": 30375,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "pairId",
+"type": "Integer"
+},
+{
+"name": "baseAmount",
+"type": "Integer"
+},
+{
+"name": "limitPrice",
+"type": "Integer"
+},
+{
+"name": "userDefinedId",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "_initialize",
+"offset": 31183,
+"parameters": [],
+"returntype": "Void",
+"safe": false
+}
+]
+},
+"name": "FlamingoBroker",
+"supportedstandards": []
+}
+},
+"[\"getcontractstate\",[\"0xf40f694362957d56801a8cef7e62a83f7f1b7b0f\"]]": {
+"hash": "0xf40f694362957d56801a8cef7e62a83f7f1b7b0f",
+"id": 458,
+"manifest": {
+"abi": {
+"events": [
+{
+"name": "OwnerChanged",
+"parameters": [
+{
+"name": "newOwner",
+"type": "Hash160"
+}
+]
+},
+{
+"name": "BrokerContractChanged",
+"parameters": [
+{
+"name": "newBrokerContract",
+"type": "Hash160"
+}
+]
+}
+],
+"methods": [
+{
+"name": "getVersion",
+"offset": 0,
+"parameters": [],
+"returntype": "String",
+"safe": true
+},
+{
+"name": "getBroker",
+"offset": 18,
+"parameters": [],
+"returntype": "Hash160",
+"safe": true
+},
+{
+"name": "standardConvert",
+"offset": 73,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "amountIn",
+"type": "Integer"
+},
+{
+"name": "minAmountOut",
+"type": "Integer"
+},
+{
+"name": "path",
+"type": "Array"
+},
+{
+"name": "pairIds",
+"type": "Array"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "emulateStandardConvert",
+"offset": 1256,
+"parameters": [
+{
+"name": "amountIn",
+"type": "Integer"
+},
+{
+"name": "minAmountOut",
+"type": "Integer"
+},
+{
+"name": "path",
+"type": "Array"
+},
+{
+"name": "pairIds",
+"type": "Array"
+}
+],
+"returntype": "Integer",
+"safe": false
+},
+{
+"name": "changeOwner",
+"offset": 1897,
+"parameters": [
+{
+"name": "newOwner",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "getOwner",
+"offset": 1993,
+"parameters": [],
+"returntype": "Hash160",
+"safe": true
+},
+{
+"name": "changeBrokerContract",
+"offset": 2058,
+"parameters": [
+{
+"name": "address",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "update",
+"offset": 2284,
+"parameters": [
+{
+"name": "nefFile",
+"type": "ByteArray"
+},
+{
+"name": "manifest",
+"type": "String"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "_initialize",
+"offset": 2324,
+"parameters": [],
+"returntype": "Void",
+"safe": false
+}
+]
+},
+"name": "FlamingoConvert",
+"supportedstandards": []
+}
+},
+"[\"getcontractstate\",[\"0xfb75a5314069b56e136713d38477f647a13991b4\"]]": {
+"hash": "0xfb75a5314069b56e136713d38477f647a13991b4",
+"id": 28,
+"manifest": {
+"abi": {
+"events": [
+{
+"name": "AddRouter",
+"parameters": [
+{
+"name": "router",
+"type": "Hash160"
+}
+]
+},
+{
+"name": "RemoveRouter",
+"parameters": [
+{
+"name": "router",
+"type": "Hash160"
+}
+]
+},
+{
+"name": "Fault",
+"parameters": [
+{
+"name": "message",
+"type": "String"
+},
+{
+"name": "paras",
+"type": "Array"
+}
+]
+}
+],
+"methods": [
+{
+"name": "verify",
+"offset": 0,
+"parameters": [],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "getAdmin",
+"offset": 14,
+"parameters": [],
+"returntype": "Hash160",
+"safe": false
+},
+{
+"name": "setAdmin",
+"offset": 92,
+"parameters": [
+{
+"name": "admin",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "update",
+"offset": 247,
+"parameters": [
+{
+"name": "nefFile",
+"type": "ByteArray"
+},
+{
+"name": "manifest",
+"type": "String"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "addRouter",
+"offset": 287,
+"parameters": [
+{
+"name": "router",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "removeRouter",
+"offset": 411,
+"parameters": [
+{
+"name": "router",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "checkRouter",
+"offset": 536,
+"parameters": [
+{
+"name": "router",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "getAllRouter",
+"offset": 629,
+"parameters": [],
+"returntype": "Array",
+"safe": false
+},
+{
+"name": "addRouter",
+"offset": 711,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "b",
+"type": "Boolean"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "removeRouter",
+"offset": 786,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "b",
+"type": "Boolean"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "checkRouter",
+"offset": 860,
+"parameters": [
+{
+"name": "user",
+"type": "Hash160"
+},
+{
+"name": "b",
+"type": "Boolean"
+}
+],
+"returntype": "Boolean",
+"safe": true
+},
+{
+"name": "_initialize",
+"offset": 1007,
+"parameters": [],
+"returntype": "Void",
+"safe": false
+}
+]
+},
+"name": "FlamingoSwapPairWhiteList",
+"supportedstandards": []
+}
+},
+"[\"getnativecontracts\",[]]": [
+{
+"hash": "0xfffdc93764dbaddd97c48f252a53ea4643faa3fd",
+"id": -1,
+"manifest": {
+"abi": {
+"events": [
+{
+"name": "Deploy",
+"parameters": [
+{
+"name": "Hash",
+"type": "Hash160"
+}
+]
+},
+{
+"name": "Update",
+"parameters": [
+{
+"name": "Hash",
+"type": "Hash160"
+}
+]
+},
+{
+"name": "Destroy",
+"parameters": [
+{
+"name": "Hash",
+"type": "Hash160"
+}
+]
+}
+],
+"methods": [
+{
+"name": "deploy",
+"offset": 0,
+"parameters": [
+{
+"name": "nefFile",
+"type": "ByteArray"
+},
+{
+"name": "manifest",
+"type": "ByteArray"
+}
+],
+"returntype": "Array",
+"safe": false
+},
+{
+"name": "deploy",
+"offset": 7,
+"parameters": [
+{
+"name": "nefFile",
+"type": "ByteArray"
+},
+{
+"name": "manifest",
+"type": "ByteArray"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Array",
+"safe": false
+},
+{
+"name": "destroy",
+"offset": 14,
+"parameters": [],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "getContract",
+"offset": 21,
+"parameters": [
+{
+"name": "hash",
+"type": "Hash160"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "getContractById",
+"offset": 28,
+"parameters": [
+{
+"name": "id",
+"type": "Integer"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "getContractHashes",
+"offset": 35,
+"parameters": [],
+"returntype": "InteropInterface",
+"safe": true
+},
+{
+"name": "getMinimumDeploymentFee",
+"offset": 42,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "hasMethod",
+"offset": 49,
+"parameters": [
+{
+"name": "hash",
+"type": "Hash160"
+},
+{
+"name": "method",
+"type": "String"
+},
+{
+"name": "pcount",
+"type": "Integer"
+}
+],
+"returntype": "Boolean",
+"safe": true
+},
+{
+"name": "isContract",
+"offset": 56,
+"parameters": [
+{
+"name": "hash",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": true
+},
+{
+"name": "setMinimumDeploymentFee",
+"offset": 63,
+"parameters": [
+{
+"name": "value",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "update",
+"offset": 70,
+"parameters": [
+{
+"name": "nefFile",
+"type": "ByteArray"
+},
+{
+"name": "manifest",
+"type": "ByteArray"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "update",
+"offset": 77,
+"parameters": [
+{
+"name": "nefFile",
+"type": "ByteArray"
+},
+{
+"name": "manifest",
+"type": "ByteArray"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Void",
+"safe": false
+}
+]
+},
+"name": "ContractManagement",
+"supportedstandards": []
+}
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0",
+"id": -2,
+"manifest": {
+"abi": {
+"events": [],
+"methods": [
+{
+"name": "atoi",
+"offset": 0,
+"parameters": [
+{
+"name": "value",
+"type": "String"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "atoi",
+"offset": 7,
+"parameters": [
+{
+"name": "value",
+"type": "String"
+},
+{
+"name": "base",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "base58CheckDecode",
+"offset": 14,
+"parameters": [
+{
+"name": "s",
+"type": "String"
+}
+],
+"returntype": "ByteArray",
+"safe": true
+},
+{
+"name": "base58CheckEncode",
+"offset": 21,
+"parameters": [
+{
+"name": "data",
+"type": "ByteArray"
+}
+],
+"returntype": "String",
+"safe": true
+},
+{
+"name": "base58Decode",
+"offset": 28,
+"parameters": [
+{
+"name": "s",
+"type": "String"
+}
+],
+"returntype": "ByteArray",
+"safe": true
+},
+{
+"name": "base58Encode",
+"offset": 35,
+"parameters": [
+{
+"name": "data",
+"type": "ByteArray"
+}
+],
+"returntype": "String",
+"safe": true
+},
+{
+"name": "base64Decode",
+"offset": 42,
+"parameters": [
+{
+"name": "s",
+"type": "String"
+}
+],
+"returntype": "ByteArray",
+"safe": true
+},
+{
+"name": "base64Encode",
+"offset": 49,
+"parameters": [
+{
+"name": "data",
+"type": "ByteArray"
+}
+],
+"returntype": "String",
+"safe": true
+},
+{
+"name": "base64UrlDecode",
+"offset": 56,
+"parameters": [
+{
+"name": "s",
+"type": "String"
+}
+],
+"returntype": "String",
+"safe": true
+},
+{
+"name": "base64UrlEncode",
+"offset": 63,
+"parameters": [
+{
+"name": "data",
+"type": "String"
+}
+],
+"returntype": "String",
+"safe": true
+},
+{
+"name": "deserialize",
+"offset": 70,
+"parameters": [
+{
+"name": "data",
+"type": "ByteArray"
+}
+],
+"returntype": "Any",
+"safe": true
+},
+{
+"name": "hexDecode",
+"offset": 77,
+"parameters": [
+{
+"name": "str",
+"type": "String"
+}
+],
+"returntype": "ByteArray",
+"safe": true
+},
+{
+"name": "hexEncode",
+"offset": 84,
+"parameters": [
+{
+"name": "bytes",
+"type": "ByteArray"
+}
+],
+"returntype": "String",
+"safe": true
+},
+{
+"name": "itoa",
+"offset": 91,
+"parameters": [
+{
+"name": "value",
+"type": "Integer"
+}
+],
+"returntype": "String",
+"safe": true
+},
+{
+"name": "itoa",
+"offset": 98,
+"parameters": [
+{
+"name": "value",
+"type": "Integer"
+},
+{
+"name": "base",
+"type": "Integer"
+}
+],
+"returntype": "String",
+"safe": true
+},
+{
+"name": "jsonDeserialize",
+"offset": 105,
+"parameters": [
+{
+"name": "json",
+"type": "ByteArray"
+}
+],
+"returntype": "Any",
+"safe": true
+},
+{
+"name": "jsonSerialize",
+"offset": 112,
+"parameters": [
+{
+"name": "item",
+"type": "Any"
+}
+],
+"returntype": "ByteArray",
+"safe": true
+},
+{
+"name": "memoryCompare",
+"offset": 119,
+"parameters": [
+{
+"name": "str1",
+"type": "ByteArray"
+},
+{
+"name": "str2",
+"type": "ByteArray"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "memorySearch",
+"offset": 126,
+"parameters": [
+{
+"name": "mem",
+"type": "ByteArray"
+},
+{
+"name": "value",
+"type": "ByteArray"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "memorySearch",
+"offset": 133,
+"parameters": [
+{
+"name": "mem",
+"type": "ByteArray"
+},
+{
+"name": "value",
+"type": "ByteArray"
+},
+{
+"name": "start",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "memorySearch",
+"offset": 140,
+"parameters": [
+{
+"name": "mem",
+"type": "ByteArray"
+},
+{
+"name": "value",
+"type": "ByteArray"
+},
+{
+"name": "start",
+"type": "Integer"
+},
+{
+"name": "backward",
+"type": "Boolean"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "serialize",
+"offset": 147,
+"parameters": [
+{
+"name": "item",
+"type": "Any"
+}
+],
+"returntype": "ByteArray",
+"safe": true
+},
+{
+"name": "strLen",
+"offset": 154,
+"parameters": [
+{
+"name": "str",
+"type": "String"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "stringSplit",
+"offset": 161,
+"parameters": [
+{
+"name": "str",
+"type": "String"
+},
+{
+"name": "separator",
+"type": "String"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "stringSplit",
+"offset": 168,
+"parameters": [
+{
+"name": "str",
+"type": "String"
+},
+{
+"name": "separator",
+"type": "String"
+},
+{
+"name": "removeEmptyEntries",
+"type": "Boolean"
+}
+],
+"returntype": "Array",
+"safe": true
+}
+]
+},
+"name": "StdLib",
+"supportedstandards": []
+}
+},
+{
+"hash": "0x726cb6e0cd8628a1350a611384688911ab75f51b",
+"id": -3,
+"manifest": {
+"abi": {
+"events": [],
+"methods": [
+{
+"name": "bls12381Add",
+"offset": 0,
+"parameters": [
+{
+"name": "x",
+"type": "InteropInterface"
+},
+{
+"name": "y",
+"type": "InteropInterface"
+}
+],
+"returntype": "InteropInterface",
+"safe": true
+},
+{
+"name": "bls12381Deserialize",
+"offset": 7,
+"parameters": [
+{
+"name": "data",
+"type": "ByteArray"
+}
+],
+"returntype": "InteropInterface",
+"safe": true
+},
+{
+"name": "bls12381Equal",
+"offset": 14,
+"parameters": [
+{
+"name": "x",
+"type": "InteropInterface"
+},
+{
+"name": "y",
+"type": "InteropInterface"
+}
+],
+"returntype": "Boolean",
+"safe": true
+},
+{
+"name": "bls12381Mul",
+"offset": 21,
+"parameters": [
+{
+"name": "x",
+"type": "InteropInterface"
+},
+{
+"name": "mul",
+"type": "ByteArray"
+},
+{
+"name": "neg",
+"type": "Boolean"
+}
+],
+"returntype": "InteropInterface",
+"safe": true
+},
+{
+"name": "bls12381Pairing",
+"offset": 28,
+"parameters": [
+{
+"name": "g1",
+"type": "InteropInterface"
+},
+{
+"name": "g2",
+"type": "InteropInterface"
+}
+],
+"returntype": "InteropInterface",
+"safe": true
+},
+{
+"name": "bls12381Serialize",
+"offset": 35,
+"parameters": [
+{
+"name": "g",
+"type": "InteropInterface"
+}
+],
+"returntype": "ByteArray",
+"safe": true
+},
+{
+"name": "keccak256",
+"offset": 42,
+"parameters": [
+{
+"name": "data",
+"type": "ByteArray"
+}
+],
+"returntype": "ByteArray",
+"safe": true
+},
+{
+"name": "murmur32",
+"offset": 49,
+"parameters": [
+{
+"name": "data",
+"type": "ByteArray"
+},
+{
+"name": "seed",
+"type": "Integer"
+}
+],
+"returntype": "ByteArray",
+"safe": true
+},
+{
+"name": "recoverSecp256K1",
+"offset": 56,
+"parameters": [
+{
+"name": "messageHash",
+"type": "ByteArray"
+},
+{
+"name": "signature",
+"type": "ByteArray"
+}
+],
+"returntype": "ByteArray",
+"safe": true
+},
+{
+"name": "ripemd160",
+"offset": 63,
+"parameters": [
+{
+"name": "data",
+"type": "ByteArray"
+}
+],
+"returntype": "ByteArray",
+"safe": true
+},
+{
+"name": "sha256",
+"offset": 70,
+"parameters": [
+{
+"name": "data",
+"type": "ByteArray"
+}
+],
+"returntype": "ByteArray",
+"safe": true
+},
+{
+"name": "verifyWithECDsa",
+"offset": 77,
+"parameters": [
+{
+"name": "message",
+"type": "ByteArray"
+},
+{
+"name": "pubkey",
+"type": "ByteArray"
+},
+{
+"name": "signature",
+"type": "ByteArray"
+},
+{
+"name": "curveHash",
+"type": "Integer"
+}
+],
+"returntype": "Boolean",
+"safe": true
+},
+{
+"name": "verifyWithEd25519",
+"offset": 84,
+"parameters": [
+{
+"name": "message",
+"type": "ByteArray"
+},
+{
+"name": "pubkey",
+"type": "ByteArray"
+},
+{
+"name": "signature",
+"type": "ByteArray"
+}
+],
+"returntype": "Boolean",
+"safe": true
+}
+]
+},
+"name": "CryptoLib",
+"supportedstandards": []
+}
+},
+{
+"hash": "0xda65b600f7124ce6c79950c1772a36403104f2be",
+"id": -4,
+"manifest": {
+"abi": {
+"events": [],
+"methods": [
+{
+"name": "currentHash",
+"offset": 0,
+"parameters": [],
+"returntype": "Hash256",
+"safe": true
+},
+{
+"name": "currentIndex",
+"offset": 7,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getBlock",
+"offset": 14,
+"parameters": [
+{
+"name": "indexOrHash",
+"type": "ByteArray"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "getTransaction",
+"offset": 21,
+"parameters": [
+{
+"name": "hash",
+"type": "Hash256"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "getTransactionFromBlock",
+"offset": 28,
+"parameters": [
+{
+"name": "blockIndexOrHash",
+"type": "ByteArray"
+},
+{
+"name": "txIndex",
+"type": "Integer"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "getTransactionHeight",
+"offset": 35,
+"parameters": [
+{
+"name": "hash",
+"type": "Hash256"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getTransactionSigners",
+"offset": 42,
+"parameters": [
+{
+"name": "hash",
+"type": "Hash256"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "getTransactionVMState",
+"offset": 49,
+"parameters": [
+{
+"name": "hash",
+"type": "Hash256"
+}
+],
+"returntype": "Integer",
+"safe": true
+}
+]
+},
+"name": "LedgerContract",
+"supportedstandards": []
+}
+},
+{
+"hash": "0xef4073a0f2b305a38ec4050e4d3d28bc40ea63f5",
+"id": -5,
+"manifest": {
+"abi": {
+"events": [
+{
+"name": "Transfer",
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "to",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+}
+]
+},
+{
+"name": "CandidateStateChanged",
+"parameters": [
+{
+"name": "pubkey",
+"type": "PublicKey"
+},
+{
+"name": "registered",
+"type": "Boolean"
+},
+{
+"name": "votes",
+"type": "Integer"
+}
+]
+},
+{
+"name": "Vote",
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+},
+{
+"name": "from",
+"type": "PublicKey"
+},
+{
+"name": "to",
+"type": "PublicKey"
+},
+{
+"name": "amount",
+"type": "Integer"
+}
+]
+},
+{
+"name": "CommitteeChanged",
+"parameters": [
+{
+"name": "old",
+"type": "Array"
+},
+{
+"name": "new",
+"type": "Array"
+}
+]
+}
+],
+"methods": [
+{
+"name": "balanceOf",
+"offset": 0,
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "decimals",
+"offset": 7,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getAccountState",
+"offset": 14,
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+}
+],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "getAllCandidates",
+"offset": 21,
+"parameters": [],
+"returntype": "InteropInterface",
+"safe": true
+},
+{
+"name": "getCandidateVote",
+"offset": 28,
+"parameters": [
+{
+"name": "pubKey",
+"type": "PublicKey"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getCandidates",
+"offset": 35,
+"parameters": [],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "getCommittee",
+"offset": 42,
+"parameters": [],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "getCommitteeAddress",
+"offset": 49,
+"parameters": [],
+"returntype": "Hash160",
+"safe": true
+},
+{
+"name": "getGasPerBlock",
+"offset": 56,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getNextBlockValidators",
+"offset": 63,
+"parameters": [],
+"returntype": "Array",
+"safe": true
+},
+{
+"name": "getRegisterPrice",
+"offset": 70,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "onNEP17Payment",
+"offset": 77,
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "registerCandidate",
+"offset": 84,
+"parameters": [
+{
+"name": "pubkey",
+"type": "PublicKey"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "setGasPerBlock",
+"offset": 91,
+"parameters": [
+{
+"name": "gasPerBlock",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setRegisterPrice",
+"offset": 98,
+"parameters": [
+{
+"name": "registerPrice",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "symbol",
+"offset": 105,
+"parameters": [],
+"returntype": "String",
+"safe": true
+},
+{
+"name": "totalSupply",
+"offset": 112,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "transfer",
+"offset": 119,
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "to",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "unclaimedGas",
+"offset": 126,
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+},
+{
+"name": "end",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "unregisterCandidate",
+"offset": 133,
+"parameters": [
+{
+"name": "pubkey",
+"type": "PublicKey"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "vote",
+"offset": 140,
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+},
+{
+"name": "voteTo",
+"type": "PublicKey"
+}
+],
+"returntype": "Boolean",
+"safe": false
+}
+]
+},
+"name": "NeoToken",
+"supportedstandards": [
+"NEP-17",
+"NEP-27"
+]
+}
+},
+{
+"hash": "0xd2a4cff31913016155e38e474a2c06d08be276cf",
+"id": -6,
+"manifest": {
+"abi": {
+"events": [
+{
+"name": "Transfer",
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "to",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+}
+]
+}
+],
+"methods": [
+{
+"name": "balanceOf",
+"offset": 0,
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "decimals",
+"offset": 7,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "symbol",
+"offset": 14,
+"parameters": [],
+"returntype": "String",
+"safe": true
+},
+{
+"name": "totalSupply",
+"offset": 21,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "transfer",
+"offset": 28,
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "to",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Boolean",
+"safe": false
+}
+]
+},
+"name": "GasToken",
+"supportedstandards": [
+"NEP-17"
+]
+}
+},
+{
+"hash": "0xcc5e4edd9f5f8dba8bb65734541df7a1c081c67b",
+"id": -7,
+"manifest": {
+"abi": {
+"events": [
+{
+"name": "MillisecondsPerBlockChanged",
+"parameters": [
+{
+"name": "old",
+"type": "Integer"
+},
+{
+"name": "new",
+"type": "Integer"
+}
+]
+},
+{
+"name": "WhitelistFeeChanged",
+"parameters": [
+{
+"name": "contract",
+"type": "Hash160"
+},
+{
+"name": "method",
+"type": "String"
+},
+{
+"name": "argCount",
+"type": "Integer"
+},
+{
+"name": "fee",
+"type": "Any"
+}
+]
+},
+{
+"name": "RecoveredFund",
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+}
+]
+}
+],
+"methods": [
+{
+"name": "blockAccount",
+"offset": 0,
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "getAttributeFee",
+"offset": 7,
+"parameters": [
+{
+"name": "attributeType",
+"type": "Integer"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getBlockedAccounts",
+"offset": 14,
+"parameters": [],
+"returntype": "InteropInterface",
+"safe": true
+},
+{
+"name": "getExecFeeFactor",
+"offset": 21,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getExecPicoFeeFactor",
+"offset": 28,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getFeePerByte",
+"offset": 35,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getMaxTraceableBlocks",
+"offset": 42,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getMaxValidUntilBlockIncrement",
+"offset": 49,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getMillisecondsPerBlock",
+"offset": 56,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getStoragePrice",
+"offset": 63,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getWhitelistFeeContracts",
+"offset": 70,
+"parameters": [],
+"returntype": "InteropInterface",
+"safe": true
+},
+{
+"name": "isBlocked",
+"offset": 77,
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": true
+},
+{
+"name": "recoverFund",
+"offset": 84,
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+},
+{
+"name": "token",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "removeWhitelistFeeContract",
+"offset": 91,
+"parameters": [
+{
+"name": "contractHash",
+"type": "Hash160"
+},
+{
+"name": "method",
+"type": "String"
+},
+{
+"name": "argCount",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setAttributeFee",
+"offset": 98,
+"parameters": [
+{
+"name": "attributeType",
+"type": "Integer"
+},
+{
+"name": "value",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setExecFeeFactor",
+"offset": 105,
+"parameters": [
+{
+"name": "value",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setFeePerByte",
+"offset": 112,
+"parameters": [
+{
+"name": "value",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setMaxTraceableBlocks",
+"offset": 119,
+"parameters": [
+{
+"name": "value",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setMaxValidUntilBlockIncrement",
+"offset": 126,
+"parameters": [
+{
+"name": "value",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setMillisecondsPerBlock",
+"offset": 133,
+"parameters": [
+{
+"name": "value",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setStoragePrice",
+"offset": 140,
+"parameters": [
+{
+"name": "value",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setWhitelistFeeContract",
+"offset": 147,
+"parameters": [
+{
+"name": "contractHash",
+"type": "Hash160"
+},
+{
+"name": "method",
+"type": "String"
+},
+{
+"name": "argCount",
+"type": "Integer"
+},
+{
+"name": "fixedFee",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "unblockAccount",
+"offset": 154,
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+}
+]
+},
+"name": "PolicyContract",
+"supportedstandards": []
+}
+},
+{
+"hash": "0x49cf4e5378ffcd4dec034fd98a174c5491e395e2",
+"id": -8,
+"manifest": {
+"abi": {
+"events": [
+{
+"name": "Designation",
+"parameters": [
+{
+"name": "Role",
+"type": "Integer"
+},
+{
+"name": "BlockIndex",
+"type": "Integer"
+},
+{
+"name": "Old",
+"type": "Array"
+},
+{
+"name": "New",
+"type": "Array"
+}
+]
+}
+],
+"methods": [
+{
+"name": "designateAsRole",
+"offset": 0,
+"parameters": [
+{
+"name": "role",
+"type": "Integer"
+},
+{
+"name": "nodes",
+"type": "Array"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "getDesignatedByRole",
+"offset": 7,
+"parameters": [
+{
+"name": "role",
+"type": "Integer"
+},
+{
+"name": "index",
+"type": "Integer"
+}
+],
+"returntype": "Array",
+"safe": true
+}
+]
+},
+"name": "RoleManagement",
+"supportedstandards": []
+}
+},
+{
+"hash": "0xfe924b7cfe89ddd271abaf7210a80a7e11178758",
+"id": -9,
+"manifest": {
+"abi": {
+"events": [
+{
+"name": "OracleRequest",
+"parameters": [
+{
+"name": "Id",
+"type": "Integer"
+},
+{
+"name": "RequestContract",
+"type": "Hash160"
+},
+{
+"name": "Url",
+"type": "String"
+},
+{
+"name": "Filter",
+"type": "String"
+}
+]
+},
+{
+"name": "OracleResponse",
+"parameters": [
+{
+"name": "Id",
+"type": "Integer"
+},
+{
+"name": "OriginalTx",
+"type": "Hash256"
+}
+]
+}
+],
+"methods": [
+{
+"name": "finish",
+"offset": 0,
+"parameters": [],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "getPrice",
+"offset": 7,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "request",
+"offset": 14,
+"parameters": [
+{
+"name": "url",
+"type": "String"
+},
+{
+"name": "filter",
+"type": "String"
+},
+{
+"name": "callback",
+"type": "String"
+},
+{
+"name": "userData",
+"type": "Any"
+},
+{
+"name": "gasForResponse",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setPrice",
+"offset": 21,
+"parameters": [
+{
+"name": "price",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "verify",
+"offset": 28,
+"parameters": [],
+"returntype": "Boolean",
+"safe": true
+}
+]
+},
+"name": "OracleContract",
+"supportedstandards": [
+"NEP-30"
+]
+}
+},
+{
+"hash": "0xc1e14f19c3e60d0b9244d06dd7ba9b113135ec3b",
+"id": -10,
+"manifest": {
+"abi": {
+"events": [],
+"methods": [
+{
+"name": "balanceOf",
+"offset": 0,
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "expirationOf",
+"offset": 7,
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+}
+],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "getMaxNotValidBeforeDelta",
+"offset": 14,
+"parameters": [],
+"returntype": "Integer",
+"safe": true
+},
+{
+"name": "lockDepositUntil",
+"offset": 21,
+"parameters": [
+{
+"name": "account",
+"type": "Hash160"
+},
+{
+"name": "till",
+"type": "Integer"
+}
+],
+"returntype": "Boolean",
+"safe": false
+},
+{
+"name": "onNEP17Payment",
+"offset": 28,
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "setMaxNotValidBeforeDelta",
+"offset": 35,
+"parameters": [
+{
+"name": "value",
+"type": "Integer"
+}
+],
+"returntype": "Void",
+"safe": false
+},
+{
+"name": "verify",
+"offset": 42,
+"parameters": [
+{
+"name": "signature",
+"type": "ByteArray"
+}
+],
+"returntype": "Boolean",
+"safe": true
+},
+{
+"name": "withdraw",
+"offset": 49,
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "to",
+"type": "Hash160"
+}
+],
+"returntype": "Boolean",
+"safe": false
+}
+]
+},
+"name": "Notary",
+"supportedstandards": [
+"NEP-27",
+"NEP-30"
+]
+}
+},
+{
+"hash": "0x156326f25b1b5d839a4d326aeaa75383c9563ac1",
+"id": -11,
+"manifest": {
+"abi": {
+"events": [],
+"methods": [
+{
+"name": "onNEP11Payment",
+"offset": 0,
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+},
+{
+"name": "tokenId",
+"type": "ByteArray"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Void",
+"safe": true
+},
+{
+"name": "onNEP17Payment",
+"offset": 7,
+"parameters": [
+{
+"name": "from",
+"type": "Hash160"
+},
+{
+"name": "amount",
+"type": "Integer"
+},
+{
+"name": "data",
+"type": "Any"
+}
+],
+"returntype": "Void",
+"safe": true
+},
+{
+"name": "verify",
+"offset": 14,
+"parameters": [],
+"returntype": "Boolean",
+"safe": true
+}
+]
+},
+"name": "Treasury",
+"supportedstandards": [
+"NEP-26",
+"NEP-27",
+"NEP-30"
+]
+}
+}
+],
+"[\"getrawtransaction\",[\"0x27b9ce06871a0a150824f5a9ed17895f1f7a4dcc5358ab63dffa81c7e07257ea\",true]]": {
+"attributes": [],
+"blockhash": "0x8f25f2ab8993acc26a43c549629920f9b84182e6693c09ffa6725facefdbe130",
+"blocktime": 1794459618530,
+"confirmations": 7214,
+"hash": "0x27b9ce06871a0a150824f5a9ed17895f1f7a4dcc5358ab63dffa81c7e07257ea",
+"netfee": "1000000",
+"nonce": 1988047720,
+"script": "HxHADBTPduKL0AYsSkeO41VhARMZ88+k0gwUKkyaTUAiZ4sD7xu+CDT5ZkYNxEgSwAMARkLcBAAAAAMA1hF+AwAAAAwUXljXaBshBngdoC160kHCs2TpyFAVwB8MD3N0YW5kYXJkQ29udmVydAwUD3sbfz+oYn7vjBqAVn2VYkNpD/RBYn1bUg==",
+"sender": "NUWq8bh6HcctnSW4ag8JJKE7438AcstUMT",
+"signers": [
+{
+"account": "0x50c8e964b3c241d27a2da01d7806211b68d7585e",
+"scopes": "Global"
+}
+],
+"size": 294,
+"sysfee": "20000000",
+"validuntilblock": 14831233,
+"version": 0,
+"vmstate": "HALT",
+"witnesses": [
+{
+"invocation": "DEArIONqdZepd2/iwz3f/MDpvE4ZTkXl5mnntg2jCdI67AUg3QR4dFsfrdgR7b3Z5NgjXkGXoTSRMuJ/ZBfufo9v",
+"verification": "DCEC7Z5qTOW9awG+r/ReiWcnnZ+cAqE8Pd35FeSq0llfFmVBVuezJw=="
+}
+]
+},
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0x3244fcadcccff190c329f7b3083e4da2af60fbce\",\"UmVzZXJ2ZVBhaXI=\"]]": "QQIhBkRij3fDASEGcQ3/lxQD",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0x3244fcadcccff190c329f7b3083e4da2af60fbce\",\"ZW50ZXJlZGVudGVyZWQ=\"]]": "",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0x48c40d4666f93408be1bef038b6722404d9a4c2a\",\"AU1dicBjzLG8WOYP0Ql9K2Scjibs\"]]": "QRjtDQQ=",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0x48c40d4666f93408be1bef038b6722404d9a4c2a\",\"AV5Y12gbIQZ4HaAtetJBwrNk6chQ\"]]": "59e4hA0=",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0x48c40d4666f93408be1bef038b6722404d9a4c2a\",\"Ac77YK+iTT4Is/cpw5Dxz8yt/EQy\"]]": "RGKPd8MB",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0x48c40d4666f93408be1bef038b6722404d9a4c2a\",\"BU1dicBjzLG8WOYP0Ql9K2Scjibs\"]]": "mbHmTgU=",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0x48c40d4666f93408be1bef038b6722404d9a4c2a\",\"BV5Y12gbIQZ4HaAtetJBwrNk6chQ\"]]": "",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0x48c40d4666f93408be1bef038b6722404d9a4c2a\",\"Bc77YK+iTT4Is/cpw5Dxz8yt/EQy\"]]": "oJIqlQg=",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0x48c40d4666f93408be1bef038b6722404d9a4c2a\",\"Bk1dicBjzLG8WOYP0Ql9K2Scjibs\"]]": "pZcoDA==",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0x48c40d4666f93408be1bef038b6722404d9a4c2a\",\"Bl5Y12gbIQZ4HaAtetJBwrNk6chQ\"]]": "pZcoDA==",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0x48c40d4666f93408be1bef038b6722404d9a4c2a\",\"Bs77YK+iTT4Is/cpw5Dxz8yt/EQy\"]]": "pZcoDA==",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xd2a4cff31913016155e38e474a2c06d08be276cf\",\"FE1dicBjzLG8WOYP0Ql9K2Scjibs\"]]": "QQEhBcvB5QgE",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xd2a4cff31913016155e38e474a2c06d08be276cf\",\"FF5Y12gbIQZ4HaAtetJBwrNk6chQ\"]]": "QQEhBXwe6lMz",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xd2a4cff31913016155e38e474a2c06d08be276cf\",\"FM77YK+iTT4Is/cpw5Dxz8yt/EQy\"]]": "QQEhBnEN/5cUAw==",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"Bl5Y12gbIQZ4HaAtetJBwrNk6chQKkyaTUAiZ4sD7xu+CDT5ZkYNxEg=\"]]": "",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"Bl5Y12gbIQZ4HaAtetJBwrNk6chQz3bii9AGLEpHjuNVYQETGfPPpNI=\"]]": "",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"Cc924ovQBixKR47jVWEBExnzz6TS\"]]": "pFEu9QQ=",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"GQ9wAAAP\"]]": "QAQhACEAIQJWBCEA",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"GQCwAAAP\"]]": "QAQhACEAIQJWBCEA",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"GQGgAAAP\"]]": "QAQhACEAIQJWBCEA",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"GQOQAAAP\"]]": "QAQhACEAIQJWBCEA",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"GQeAAAAP\"]]": "QAQhACEAIQJWBCEA",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"GR9gAAAP\"]]": "QAQhACEAIQJWBCEA",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"GT9QAAAP\"]]": "QAQhACEAIQJWBCEA",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"GX9AAAAP\"]]": "QAQhACEAIQJWBCEA",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"Gf8HAAAP\"]]": "QAQhBWpvT7gBIQUCbFsyBCECVQQhAA==",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"Gf8TAAAP\"]]": "QAQhBWpvT7gBIQUCbFsyBCECVQQhAA==",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"Gf8hAAAP\"]]": "QAQhBWpvT7gBIQUCbFsyBCECVQQhAA==",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"Gf8wAAAP\"]]": "QAQhBWpvT7gBIQUCbFsyBCECVQQhAA==",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"IK+AAAAP\"]]": "QAQhACEAIQIHCSEA",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"IK9wAAAP\"]]": "QAQhACEAIQIHCSECdAg=",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"IKuQAAAP\"]]": "QAQhACEAIQIJCSECdAg=",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"IKugAAAP\"]]": "QAQhACEAIQIKCSEA",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"IKuwAAAP\"]]": "QAQhACEAIQIKCSEA",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"IL9QAAAP\"]]": "QAQhBeksexAEIQVJSldCBiECzQghAhwI",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"IL9gAAAP\"]]": "QAQhACEAIQIHCSEA",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"IP8HAAAP\"]]": "QAQhBbj53N4MIQVJJIs1DyECBAEhAA==",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"IP8TAAAP\"]]": "QAQhBbj53N4MIQVJJIs1DyECBAEhAA==",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"IP8hAAAP\"]]": "QAQhBbj53N4MIQVJJIs1DyECBAEhAA==",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"IP8wAAAP\"]]": "QAQhBbj53N4MIQVJJIs1DyECBAEhAA==",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"IP9AAAAP\"]]": "QAQhBeksexAEIQVJSldCBiECzQghAA==",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"IQ8=\"]]": "nWs=",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"J0ECIQEPIQOrsAA=\"]]": "UzamVRw=",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"JkECIQEPIQOrsAA=\"]]": "AOo8eRA=",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"KEECIQEPIQMAsAA=\"]]": "",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"KUECIQEPIQMAsAA=\"]]": "",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"NA8=\"]]": "Cwk=",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"NQ8=\"]]": "hwQ=",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"NkEDIQEPIQAgAA==\"]]": "DCc=",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"QF5Y12gbIQZ4HaAtetJBwrNk6chQ\"]]": "ky4=",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"QSpMmk1AImeLA+8bvgg0+WZGDcRI\"]]": "iJw0FQ==",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"Qc924ovQBixKR47jVWEBExnzz6TS\"]]": "bqgA",
+"[\"getstate\",[\"0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93\",\"0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d\",\"Rg8=\"]]": "KjHiAA==",
+"[\"getstateroot\",[14825475]]": {
+"index": 14825475,
+"roothash": "0x4834bd5c7cb88b50475f86ba18e0cf1864fe17a56cf7e22f53f17c5db1252e93"
+},
+"[\"invokefunction\",[\"0x48c40d4666f93408be1bef038b6722404d9a4c2a\",\"decimals\",[]]]": {
+"exception": null,
+"gasconsumed": "45473",
+"notifications": [],
+"script": "wh8MCGRlY2ltYWxzDBQqTJpNQCJniwPvG74INPlmRg3ESEFifVtS",
+"stack": [
+{
+"type": "Integer",
+"value": "8"
+}
+],
+"state": "HALT"
+},
+"[\"invokefunction\",[\"0x48c40d4666f93408be1bef038b6722404d9a4c2a\",\"symbol\",[]]]": {
+"exception": null,
+"gasconsumed": "45480",
+"notifications": [],
+"script": "wh8MBnN5bWJvbAwUKkyaTUAiZ4sD7xu+CDT5ZkYNxEhBYn1bUg==",
+"stack": [
+{
+"type": "ByteString",
+"value": "Yk5FTw=="
+}
+],
+"state": "HALT"
+},
+"[\"invokefunction\",[\"0xd2a4cff31913016155e38e474a2c06d08be276cf\",\"decimals\",[]]]": {
+"exception": null,
+"gasconsumed": "32802",
+"notifications": [],
+"script": "wh8MCGRlY2ltYWxzDBTPduKL0AYsSkeO41VhARMZ88+k0kFifVtS",
+"stack": [
+{
+"type": "Integer",
+"value": "8"
+}
+],
+"state": "HALT"
+},
+"[\"invokefunction\",[\"0xd2a4cff31913016155e38e474a2c06d08be276cf\",\"symbol\",[]]]": {
+"exception": null,
+"gasconsumed": "32802",
+"notifications": [],
+"script": "wh8MBnN5bWJvbAwUz3bii9AGLEpHjuNVYQETGfPPpNJBYn1bUg==",
+"stack": [
+{
+"type": "ByteString",
+"value": "R0FT"
+}
+],
+"state": "HALT"
+},
+"[\"invokefunctionhistoric\",[14825475,\"0xcc5e4edd9f5f8dba8bb65734541df7a1c081c67b\",\"getFeePerByte\",[]]]": {
+"exception": null,
+"gasconsumed": "65570",
+"notifications": [],
+"script": "wh8MDWdldEZlZVBlckJ5dGUMFHvGgcCh9x1UNFe2i7qNX5/dTl7MQWJ9W1I=",
+"stack": [
+{
+"type": "Integer",
+"value": "20"
+}
+],
+"state": "HALT"
+},
+"[\"invokescripthistoric\",[14825475,\"HxHADBTPduKL0AYsSkeO41VhARMZ88+k0gwUKkyaTUAiZ4sD7xu+CDT5ZkYNxEgSwAMARkLcBAAAAAMA1hF+AwAAAAwUXljXaBshBngdoC160kHCs2TpyFAVwB8MD3N0YW5kYXJkQ29udmVydAwUD3sbfz+oYn7vjBqAVn2VYkNpD/RBYn1bUg==\",[{\"account\":\"0x50c8e964b3c241d27a2da01d7806211b68d7585e\",\"scopes\":\"Global\"}],true]]": {
+"diagnostics": {
+"invokedcontracts": [
+{
+"call": [
+{
+"call": [
+{
+"hash": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d"
+},
+{
+"hash": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d"
+},
+{
+"call": [
+{
+"hash": "0xfffdc93764dbaddd97c48f252a53ea4643faa3fd"
+},
+{
+"call": [
+{
+"hash": "0xfffdc93764dbaddd97c48f252a53ea4643faa3fd"
+},
+{
+"hash": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d"
+}
+],
+"hash": "0x48c40d4666f93408be1bef038b6722404d9a4c2a"
+},
+{
+"hash": "0x48c40d4666f93408be1bef038b6722404d9a4c2a"
+}
+],
+"hash": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d"
+},
+{
+"hash": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d"
+},
+{
+"hash": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d"
+},
+{
+"hash": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d"
+},
+{
+"call": [
+{
+"hash": "0xca2d20610d7982ebe0bed124ee7e9b2d580a6efc"
+},
+{
+"hash": "0x3244fcadcccff190c329f7b3083e4da2af60fbce"
+},
+{
+"hash": "0x3244fcadcccff190c329f7b3083e4da2af60fbce"
+},
+{
+"call": [
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+}
+],
+"hash": "0x3244fcadcccff190c329f7b3083e4da2af60fbce"
+},
+{
+"call": [
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+}
+],
+"hash": "0x3244fcadcccff190c329f7b3083e4da2af60fbce"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0x48c40d4666f93408be1bef038b6722404d9a4c2a"
+},
+{
+"hash": "0xd2a4cff31913016155e38e474a2c06d08be276cf"
+},
+{
+"call": [
+{
+"hash": "0xca2d20610d7982ebe0bed124ee7e9b2d580a6efc"
+},
+{
+"call": [
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+}
+],
+"hash": "0x3244fcadcccff190c329f7b3083e4da2af60fbce"
+},
+{
+"hash": "0xca2d20610d7982ebe0bed124ee7e9b2d580a6efc"
+},
+{
+"hash": "0x48c40d4666f93408be1bef038b6722404d9a4c2a"
+},
+{
+"call": [
+{
+"call": [
+{
+"hash": "0xfffdc93764dbaddd97c48f252a53ea4643faa3fd"
+},
+{
+"hash": "0x3244fcadcccff190c329f7b3083e4da2af60fbce"
+}
+],
+"hash": "0x48c40d4666f93408be1bef038b6722404d9a4c2a"
+}
+],
+"hash": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d"
+},
+{
+"hash": "0x48c40d4666f93408be1bef038b6722404d9a4c2a"
+},
+{
+"hash": "0xca2d20610d7982ebe0bed124ee7e9b2d580a6efc"
+},
+{
+"call": [
+{
+"hash": "0xfb75a5314069b56e136713d38477f647a13991b4"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"call": [
+{
+"hash": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d"
+}
+],
+"hash": "0xd2a4cff31913016155e38e474a2c06d08be276cf"
+},
+{
+"hash": "0x48c40d4666f93408be1bef038b6722404d9a4c2a"
+},
+{
+"hash": "0xd2a4cff31913016155e38e474a2c06d08be276cf"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+}
+],
+"hash": "0x3244fcadcccff190c329f7b3083e4da2af60fbce"
+}
+],
+"hash": "0xde3a4b093abbd07e9a69cdec88a54d9a1fe14975"
+},
+{
+"hash": "0x48c40d4666f93408be1bef038b6722404d9a4c2a"
+},
+{
+"hash": "0xd2a4cff31913016155e38e474a2c06d08be276cf"
+},
+{
+"hash": "0xca2d20610d7982ebe0bed124ee7e9b2d580a6efc"
+},
+{
+"hash": "0x3244fcadcccff190c329f7b3083e4da2af60fbce"
+},
+{
+"hash": "0x3244fcadcccff190c329f7b3083e4da2af60fbce"
+},
+{
+"call": [
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+}
+],
+"hash": "0x3244fcadcccff190c329f7b3083e4da2af60fbce"
+},
+{
+"call": [
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+}
+],
+"hash": "0x3244fcadcccff190c329f7b3083e4da2af60fbce"
+},
+{
+"hash": "0xda65b600f7124ce6c79950c1772a36403104f2be"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xd2a4cff31913016155e38e474a2c06d08be276cf"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xacce6fd80d44e1796aa0c2c625e9e4e0ce39efc0"
+},
+{
+"hash": "0xd2a4cff31913016155e38e474a2c06d08be276cf"
+}
+],
+"hash": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d"
+},
+{
+"hash": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d"
+},
+{
+"call": [
+{
+"hash": "0xd2a4cff31913016155e38e474a2c06d08be276cf"
+}
+],
+"hash": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d"
+}
+],
+"hash": "0xf40f694362957d56801a8cef7e62a83f7f1b7b0f"
+}
+],
+"hash": "0x73e1a15d3d3732e5aa983f3d7c7cf0b40b46bb69"
+}
+],
+"storagechanges": [
+{
+"key": "tgEAAAZeWNdoGyEGeB2gLXrSQcKzZOnIUCpMmk1AImeLA+8bvgg0+WZGDcRI",
+"state": "Changed",
+"value": ""
+},
+{
+"key": "tgEAACD/BwAADw==",
+"state": "Changed",
+"value": "QAQhBbj53N4MIQVJJIs1DyECBAEhAA=="
+},
+{
+"key": "tgEAABkAsAAADw==",
+"state": "Changed",
+"value": "QAQhACEAIQJWBCEA"
+},
+{
+"key": "+v///xReWNdoGyEGeB2gLXrSQcKzZOnIUA==",
+"state": "Changed",
+"value": "QQEhBXgtTl85"
+},
+{
+"key": "tgEAACD/QAAADw==",
+"state": "Changed",
+"value": "QAQhBeksexAEIQVJSldCBiECzQghAA=="
+},
+{
+"key": "DAAAAAXO+2Cvok0+CLP3KcOQ8c/MrfxEMg==",
+"state": "Changed",
+"value": "oJIqlQg="
+},
+{
+"key": "tgEAAEBeWNdoGyEGeB2gLXrSQcKzZOnIUA==",
+"state": "Changed",
+"value": "lC4="
+},
+{
+"key": "tgEAAClBAiEBDyEDALAA",
+"state": "Changed",
+"value": ""
+},
+{
+"key": "tgEAACD/MAAADw==",
+"state": "Changed",
+"value": "QAQhBbj53N4MIQVJJIs1DyECBAEhAA=="
+},
+{
+"key": "tgEAACCroAAADw==",
+"state": "Changed",
+"value": "QAQhACEAIQIKCSEA"
+},
+{
+"key": "tgEAABn/BwAADw==",
+"state": "Changed",
+"value": "QAQhBWpvT7gBIQUCbFsyBCECVQQhAA=="
+},
+{
+"key": "tgEAADZBAyEBDyEAIAA=",
+"state": "Changed",
+"value": "DSc="
+},
+{
+"key": "tgEAAChBAiEBDyEDALAA",
+"state": "Changed",
+"value": ""
+},
+{
+"key": "tgEAAEEqTJpNQCJniwPvG74INPlmRg3ESA==",
+"state": "Changed",
+"value": "iJw0FQ=="
+},
+{
+"key": "IQAAAGVudGVyZWRlbnRlcmVk",
+"state": "Changed",
+"value": ""
+},
+{
+"key": "tgEAABkPcAAADw==",
+"state": "Changed",
+"value": "QAQhACEAIQJWBCEA"
+},
+{
+"key": "DAAAAAZeWNdoGyEGeB2gLXrSQcKzZOnIUA==",
+"state": "Changed",
+"value": "pZcoDA=="
+},
+{
+"key": "DAAAAAZNXYnAY8yxvFjmD9EJfStknI4m7A==",
+"state": "Changed",
+"value": "pZcoDA=="
+},
+{
+"key": "tgEAACCvcAAADw==",
+"state": "Changed",
+"value": "QAQhACEAIQIHCSECdAg="
+},
+{
+"key": "tgEAACCrkAAADw==",
+"state": "Changed",
+"value": "QAQhACEAIQIJCSECdAg="
+},
+{
+"key": "tgEAACCrsAAADw==",
+"state": "Changed",
+"value": "QAQhACEAIQIKCSEA"
+},
+{
+"key": "tgEAAEHPduKL0AYsSkeO41VhARMZ88+k0g==",
+"state": "Changed",
+"value": "p79TAg=="
+},
+{
+"key": "tgEAADUP",
+"state": "Changed",
+"value": "hwQ="
+},
+{
+"key": "DAAAAAFNXYnAY8yxvFjmD9EJfStknI4m7A==",
+"state": "Changed",
+"value": "QRjtDQQ="
+},
+{
+"key": "tgEAACC/UAAADw==",
+"state": "Changed",
+"value": "QAQhBeksexAEIQVJSldCBiECzQghAhwI"
+},
+{
+"key": "tgEAACCvgAAADw==",
+"state": "Changed",
+"value": "QAQhACEAIQIHCSEA"
+},
+{
+"key": "tgEAAAZeWNdoGyEGeB2gLXrSQcKzZOnIUM924ovQBixKR47jVWEBExnzz6TS",
+"state": "Changed",
+"value": ""
+},
+{
+"key": "tgEAACdBAiEBDyEDq7AA",
+"state": "Changed",
+"value": "UzamVRw="
+},
+{
+"key": "tgEAADQP",
+"state": "Changed",
+"value": "Cwk="
+},
+{
+"key": "tgEAABn/IQAADw==",
+"state": "Changed",
+"value": "QAQhBWpvT7gBIQUCbFsyBCECVQQhAA=="
+},
+{
+"key": "tgEAABkDkAAADw==",
+"state": "Changed",
+"value": "QAQhACEAIQJWBCEA"
+},
+{
+"key": "tgEAAEVBAiEBDyEEAzjiAA==",
+"state": "Added",
+"value": "QQIhBCox4gAhCTUpvAG5bgJTCQ=="
+},
+{
+"key": "tgEAAEYP",
+"state": "Changed",
+"value": "AzjiAA=="
+},
+{
+"key": "tgEAACNeWNdoGyEGeB2gLXrSQcKzZOnIUAAAVAIAAA+eaw==",
+"state": "Added",
+"value": "nms="
+},
+{
+"key": "DAAAAAVNXYnAY8yxvFjmD9EJfStknI4m7A==",
+"state": "Changed",
+"value": "mbHmTgU="
+},
+{
+"key": "tgEAACD/IQAADw==",
+"state": "Changed",
+"value": "QAQhBbj53N4MIQVJJIs1DyECBAEhAA=="
+},
+{
+"key": "tgEAAAnPduKL0AYsSkeO41VhARMZ88+k0g==",
+"state": "Changed",
+"value": "3WiB9wQ="
+},
+{
+"key": "tgEAABn/EwAADw==",
+"state": "Changed",
+"value": "QAQhBWpvT7gBIQUCbFsyBCECVQQhAA=="
+},
+{
+"key": "DAAAAAFeWNdoGyEGeB2gLXrSQcKzZOnIUA==",
+"state": "Changed",
+"value": "5wGnBgo="
+},
+{
+"key": "DAAAAAHO+2Cvok0+CLP3KcOQ8c/MrfxEMg==",
+"state": "Changed",
+"value": "RDih9cYB"
+},
+{
+"key": "tgEAACEP",
+"state": "Changed",
+"value": "nms="
+},
+{
+"key": "tgEAACC/YAAADw==",
+"state": "Changed",
+"value": "QAQhACEAIQIHCSEA"
+},
+{
+"key": "+v///xTO+2Cvok0+CLP3KcOQ8c/MrfxEMg==",
+"state": "Changed",
+"value": "QQEhBjznR4oOAw=="
+},
+{
+"key": "+v///xRNXYnAY8yxvFjmD9EJfStknI4m7A==",
+"state": "Changed",
+"value": "QQEhBQTZOAsE"
+},
+{
+"key": "tgEAABk/UAAADw==",
+"state": "Changed",
+"value": "QAQhACEAIQJWBCEA"
+},
+{
+"key": "tgEAACD/EwAADw==",
+"state": "Changed",
+"value": "QAQhBbj53N4MIQVJJIs1DyECBAEhAA=="
+},
+{
+"key": "DAAAAAbO+2Cvok0+CLP3KcOQ8c/MrfxEMg==",
+"state": "Changed",
+"value": "pZcoDA=="
+},
+{
+"key": "DAAAAAVeWNdoGyEGeB2gLXrSQcKzZOnIUA==",
+"state": "Changed",
+"value": ""
+},
+{
+"key": "tgEAABl/QAAADw==",
+"state": "Changed",
+"value": "QAQhACEAIQJWBCEA"
+},
+{
+"key": "IQAAAFJlc2VydmVQYWly",
+"state": "Changed",
+"value": "QQIhBkQ4ofXGASEGPOdHig4D"
+},
+{
+"key": "tgEAABn/MAAADw==",
+"state": "Changed",
+"value": "QAQhBWpvT7gBIQUCbFsyBCECVQQhAA=="
+},
+{
+"key": "tgEAABkfYAAADw==",
+"state": "Changed",
+"value": "QAQhACEAIQJWBCEA"
+},
+{
+"key": "tgEAABkBoAAADw==",
+"state": "Changed",
+"value": "QAQhACEAIQJWBCEA"
+},
+{
+"key": "tgEAACZBAiEBDyEDq7AA",
+"state": "Changed",
+"value": "AOo8eRA="
+},
+{
+"key": "tgEAABkHgAAADw==",
+"state": "Changed",
+"value": "QAQhACEAIQJWBCEA"
+},
+{
+"key": "tgEAACJBAiEBDyECnms=",
+"state": "Added",
+"value": "QBYoFF5Y12gbIQZ4HaAtetJBwrNk6chQIQUA1hF+AyEEgNHwCCEAIQAhAQEhBQDWEX4DIQX8DmQLBiEAIQAgACEAIQAhACEAIQJWBCEAIQAhAg0nIQQ5F1MCIQbFzCDOoQEhAA=="
+}
+]
+},
+"exception": null,
+"gasconsumed": "18884639",
+"notifications": [
+{
+"contract": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d",
+"eventname": "UserDeposited",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "ByteString",
+"value": "KkyaTUAiZ4sD7xu+CDT5ZkYNxEg="
+},
+{
+"type": "Integer",
+"value": "15000000000"
+}
+]
+}
+},
+{
+"contract": "0x48c40d4666f93408be1bef038b6722404d9a4c2a",
+"eventname": "Transfer",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "ByteString",
+"value": "TV2JwGPMsbxY5g/RCX0rZJyOJuw="
+},
+{
+"type": "Integer",
+"value": "15000000000"
+}
+]
+}
+},
+{
+"contract": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d",
+"eventname": "AccountUpdated",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "ByteString",
+"value": "KkyaTUAiZ4sD7xu+CDT5ZkYNxEg="
+},
+{
+"type": "Integer",
+"value": "15000000000"
+},
+{
+"type": "Integer",
+"value": "15000000000"
+}
+]
+}
+},
+{
+"contract": "0x48c40d4666f93408be1bef038b6722404d9a4c2a",
+"eventname": "Transfer",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "TV2JwGPMsbxY5g/RCX0rZJyOJuw="
+},
+{
+"type": "ByteString",
+"value": "zvtgr6JNPgiz9ynDkPHPzK38RDI="
+},
+{
+"type": "Integer",
+"value": "15000000000"
+}
+]
+}
+},
+{
+"contract": "0xd2a4cff31913016155e38e474a2c06d08be276cf",
+"eventname": "Transfer",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "zvtgr6JNPgiz9ynDkPHPzK38RDI="
+},
+{
+"type": "ByteString",
+"value": "TV2JwGPMsbxY5g/RCX0rZJyOJuw="
+},
+{
+"type": "Integer",
+"value": "25999910453"
+}
+]
+}
+},
+{
+"contract": "0x3244fcadcccff190c329f7b3083e4da2af60fbce",
+"eventname": "Synced",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "Integer",
+"value": "1954036136004"
+},
+{
+"type": "Integer",
+"value": "3360984393532"
+}
+]
+}
+},
+{
+"contract": "0x3244fcadcccff190c329f7b3083e4da2af60fbce",
+"eventname": "Swapped",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "dUnhH5pNpYjszWmaftC7OglLOt4="
+},
+{
+"type": "Integer",
+"value": "15000000000"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "25999910453"
+},
+{
+"type": "ByteString",
+"value": "TV2JwGPMsbxY5g/RCX0rZJyOJuw="
+}
+]
+}
+},
+{
+"contract": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d",
+"eventname": "OrderUpserted",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "Integer",
+"value": "27550"
+},
+{
+"type": "Integer",
+"value": "15"
+},
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "Integer",
+"value": "15000000000"
+},
+{
+"type": "Integer",
+"value": "150000000"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "1"
+},
+{
+"type": "Integer",
+"value": "15000000000"
+},
+{
+"type": "Integer",
+"value": "25960910588"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Boolean",
+"value": false
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "1110"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "9997"
+},
+{
+"type": "Integer",
+"value": "172"
+},
+{
+"type": "Integer",
+"value": "38999865"
+}
+]
+}
+},
+{
+"contract": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d",
+"eventname": "AccountUpdated",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "ByteString",
+"value": "KkyaTUAiZ4sD7xu+CDT5ZkYNxEg="
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "-15000000000"
+}
+]
+}
+},
+{
+"contract": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d",
+"eventname": "AccountUpdated",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "ByteString",
+"value": "z3bii9AGLEpHjuNVYQETGfPPpNI="
+},
+{
+"type": "Integer",
+"value": "25960910588"
+},
+{
+"type": "Integer",
+"value": "25960910588"
+}
+]
+}
+},
+{
+"contract": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d",
+"eventname": "UserWithdrew",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "ByteString",
+"value": "z3bii9AGLEpHjuNVYQETGfPPpNI="
+},
+{
+"type": "Integer",
+"value": "25960910588"
+}
+]
+}
+},
+{
+"contract": "0xd2a4cff31913016155e38e474a2c06d08be276cf",
+"eventname": "Transfer",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "TV2JwGPMsbxY5g/RCX0rZJyOJuw="
+},
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "Integer",
+"value": "25960910588"
+}
+]
+}
+},
+{
+"contract": "0xec268e9c642b7d09d10fe658bcb1cc63c0895d4d",
+"eventname": "AccountUpdated",
+"state": {
+"type": "Array",
+"value": [
+{
+"type": "ByteString",
+"value": "XljXaBshBngdoC160kHCs2TpyFA="
+},
+{
+"type": "ByteString",
+"value": "z3bii9AGLEpHjuNVYQETGfPPpNI="
+},
+{
+"type": "Integer",
+"value": "0"
+},
+{
+"type": "Integer",
+"value": "-25960910588"
+}
+]
+}
+}
+],
+"script": "HxHADBTPduKL0AYsSkeO41VhARMZ88+k0gwUKkyaTUAiZ4sD7xu+CDT5ZkYNxEgSwAMARkLcBAAAAAMA1hF+AwAAAAwUXljXaBshBngdoC160kHCs2TpyFAVwB8MD3N0YW5kYXJkQ29udmVydAwUD3sbfz+oYn7vjBqAVn2VYkNpD/RBYn1bUg==",
+"stack": [
+{
+"type": "Boolean",
+"value": true
+}
+],
+"state": "HALT"
+}
+}
