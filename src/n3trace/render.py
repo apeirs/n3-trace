@@ -10,6 +10,10 @@ from .codec import format_amount
 MAX_TEXT = 110
 
 
+def plural(n: int, word: str) -> str:
+    return f"{n:,} {word}{'' if n == 1 else 's'}"
+
+
 def when(ms: int | None) -> str:
     if not ms:
         return "?"
@@ -183,6 +187,8 @@ def transaction(m: dict[str, Any], tree_lines: int = 60, storage_rows: int = 40)
     o(fee)
     for a in m["attributes"]:
         o(f"  attribute {a.get('type')} {cut({k: v for k, v in a.items() if k != 'type'}, 80) if len(a) > 1 else ''}")
+    for w in m["warnings"]:
+        o(f"  ! {w}")
 
     _signers(o, m["signers"], m["scope_notes"])
     _calls(o, m["calls"], m["script"])
@@ -220,14 +226,9 @@ def transaction(m: dict[str, Any], tree_lines: int = 60, storage_rows: int = 40)
             if "notifications" in r:
                 _events(o, r["notifications"], "Replay events")
                 _moves(o, r["transfers"], r["deltas"])
-            o.head(f"Call tree ({r['contract_calls']} contract calls, depth {r['depth']})")
+            o.head(f"Call tree ({plural(r['contract_calls'], 'contract call')}, depth {r['depth']})")
             _tree(o, r["tree"], tree_lines)
             _storage(o, r["storage"], storage_rows, r["state"] == "HALT")
-
-    if m["warnings"]:
-        o.head("Warnings")
-        for w in m["warnings"]:
-            o(f"  ! {w}")
     return o.text()
 
 
@@ -250,6 +251,8 @@ def preview(m: dict[str, Any], tree_lines: int = 60, storage_rows: int = 40) -> 
     o(line)
     for e in m["errors"]:
         o(f"  X {e}")
+    for w in m["warnings"]:
+        o(f"  ! {w}")
     if m.get("fault_path"):
         o(f"  last contract entered: {' > '.join(m['fault_path'])}")
     if m.get("fault_hint"):
@@ -272,20 +275,16 @@ def preview(m: dict[str, Any], tree_lines: int = 60, storage_rows: int = 40) -> 
         o("  stack: " + cut(", ".join(s["text"] for s in res["stack"]), 150))
     _events(o, res["notifications"])
     _moves(o, m["transfers"], m["deltas"])
-    o.head(f"Call tree ({m['contract_calls']} contract calls, depth {m['depth']})")
+    o.head(f"Call tree ({plural(m['contract_calls'], 'contract call')}, depth {m['depth']})")
     _tree(o, m["tree"], tree_lines)
     _storage(o, m["storage"], storage_rows, res["state"] == "HALT")
-    if m["warnings"]:
-        o.head("Warnings")
-        for w in m["warnings"]:
-            o(f"  ! {w}")
     return o.text()
 
 
 # -- block -------------------------------------------------------------------------------------------------------------
 def block(m: dict[str, Any]) -> str:
     o = Out()
-    o(f"Block {m['index']:,}  {m['hash']}  {when(m['time'])}  {len(m['transactions'])} transaction(s)")
+    o(f"Block {m['index']:,}  {m['hash']}  {when(m['time'])}  {plural(len(m['transactions']), 'transaction')}")
     for i, t in enumerate(m["transactions"], 1):
         calls = ", ".join(t["calls"]) or "(no calls)"
         o(f"  {i:>3}. {t['hash']}  {t['state'] or '?':<5} gas {g(t['gasconsumed'])}  {t['sender']}")
